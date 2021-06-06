@@ -11,15 +11,6 @@
       </categories>
   </entry>
   <entry>
-    <title>FAQ</title>
-    <url>/hexo-blog/2021/05/25/faq/</url>
-    <content><![CDATA[<h3 id="问题总结"><a href="#问题总结" class="headerlink" title="问题总结"></a>问题总结</h3><p><a href="https://shimo.im/docs/6GXVWKKxcKJHQxQj/">to 石墨 =&gt; 问题总结</a></p>
-]]></content>
-      <categories>
-        <category>FAQ</category>
-      </categories>
-  </entry>
-  <entry>
     <title>选取适合的博客搭建工具</title>
     <url>/hexo-blog/2021/05/16/blogs/</url>
     <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/79515327">文章：如何选定搭建个人独立博客工具</a></p>
@@ -33,6 +24,14 @@
 ]]></content>
       <categories>
         <category>博客</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>example</title>
+    <url>/hexo-blog/2021/06/06/example/</url>
+    <content><![CDATA[<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3>]]></content>
+      <categories>
+        <category>例子</category>
       </categories>
   </entry>
   <entry>
@@ -135,6 +134,95 @@
       </categories>
   </entry>
   <entry>
+    <title>搭博客吗？十分钟的那种</title>
+    <url>/hexo-blog/2021/05/16/hexo/</url>
+    <content><![CDATA[<h1 id="宗旨"><a href="#宗旨" class="headerlink" title="宗旨"></a>宗旨</h1><h2 id="几行命令搭建博客，争-10min-保-1h"><a href="#几行命令搭建博客，争-10min-保-1h" class="headerlink" title="几行命令搭建博客，争 10min 保 1h"></a>几行命令搭建博客，争 10min 保 1h</h2><blockquote>
+<p>注：hexo，中文：十六进制(我不会读 -_-)</p>
+</blockquote>
+<h1 id="一、开始"><a href="#一、开始" class="headerlink" title="一、开始"></a>一、开始</h1><p>1.安装 Hexo</p>
+<pre><code>npm install -g hexo-cli
+</code></pre>
+<p>2.验证是否安装成功</p>
+<pre><code>hexo -v
+</code></pre>
+<p>3.初始化文件夹</p>
+<pre><code>hexo init &lt;文件夹名称&gt;
+</code></pre>
+<p>4.安装依赖</p>
+<pre><code>npm install
+</code></pre>
+<p>5.运行</p>
+<pre><code>npm run server / hexo s
+</code></pre>
+<p>6.创建新文章</p>
+<pre><code>hexo new &quot;test&quot;
+</code></pre>
+<p>7.安装 hexo 的 git 扩展</p>
+<pre><code>npm i hexo-deployer-git
+</code></pre>
+<p>8.配置 git</p>
+<blockquote>
+<p>_config.yml 文件</p>
+</blockquote>
+<pre><code>deploy:
+type: git
+repository: https://github.com/doublestar2017/hexo-blog.git
+branch: master
+</code></pre>
+<blockquote>
+<p>如果您的网站存放在子目录中，例如 <a href="http://example.com/blog%EF%BC%8C%E5%88%99%E8%AF%B7%E5%B0%86%E6%82%A8%E7%9A%84">http://example.com/blog，则请将您的</a> url 设为 <a href="http://example.com/blog">http://example.com/blog</a> 并把 root 设为 /blog/。</p>
+</blockquote>
+<p>8.生成静态网页</p>
+<pre><code>hexo g
+</code></pre>
+<p>9.提交</p>
+<pre><code>hexo d
+</code></pre>
+<p>10.更换主题(xxxx 是主题名)</p>
+<pre><code>git clone github地址 themes/xxxx
+</code></pre>
+<blockquote>
+<p>_config.yml 文件,注释掉原来的 theme 并新增一句 theme: xxxx<br>如果 clone 过程过于缓慢，可以直接下载主题代码包到 themes 文件夹下</p>
+</blockquote>
+<h1 id="二、问题"><a href="#二、问题" class="headerlink" title="二、问题"></a>二、问题</h1><p>1.在使用 hexo d -g 命令进行博客部署时遇到了名为 Spawn failed 的报错<br><a href="https://blog.csdn.net/HTL2018/article/details/106876940">解决方案</a></p>
+<p>2.遇到推送代码包失败/time out<br>可以尝试将.deploy_git 包直接上传到 github 上</p>
+<h1 id="三、简介"><a href="#三、简介" class="headerlink" title="三、简介"></a>三、简介</h1><p>Hexo 是一个开源的静态博客生成器，用 node.js 开发，作者是台湾大学生 tommy351。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>FAQ</title>
+    <url>/hexo-blog/2021/05/25/faq/</url>
+    <content><![CDATA[<h3 id="问题总结"><a href="#问题总结" class="headerlink" title="问题总结"></a>问题总结</h3><p><a href="https://shimo.im/docs/6GXVWKKxcKJHQxQj/">to 石墨 =&gt; 问题总结</a></p>
+]]></content>
+      <categories>
+        <category>FAQ</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>分享流程</title>
+    <url>/hexo-blog/2021/05/25/process/</url>
+    <content><![CDATA[<hr>
+<center>
+<div id="flowchart-0" class="flow-chart"></div>
+</center>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 开始
+e=>end: over
+op=>operation: 一些啰里啰唆的开场白
+op2=>operation: 博客搭建
+op3=>operation: 散装分享
+op4=>operation: 娱乐篇分享
+cond=>condition: 时间剩余?
+st->op->op2->op3->cond
+cond(yes)->op4->e
+cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+  </entry>
+  <entry>
     <title>PMP</title>
     <url>/hexo-blog/2021/06/06/pmp/</url>
     <content><![CDATA[<h3 id="PMP"><a href="#PMP" class="headerlink" title="PMP"></a>PMP</h3><p>考试：6月20号;200道选择题;4小时;上午9:00–13:00</p>
@@ -142,14 +230,6 @@
 ]]></content>
       <categories>
         <category>考试</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>example</title>
-    <url>/hexo-blog/2021/06/06/example/</url>
-    <content><![CDATA[<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3>]]></content>
-      <categories>
-        <category>例子</category>
       </categories>
   </entry>
   <entry>
@@ -249,81 +329,35 @@
       </categories>
   </entry>
   <entry>
-    <title>搭博客吗？十分钟的那种</title>
-    <url>/hexo-blog/2021/05/16/hexo/</url>
-    <content><![CDATA[<h1 id="宗旨"><a href="#宗旨" class="headerlink" title="宗旨"></a>宗旨</h1><h2 id="几行命令搭建博客，争-10min-保-1h"><a href="#几行命令搭建博客，争-10min-保-1h" class="headerlink" title="几行命令搭建博客，争 10min 保 1h"></a>几行命令搭建博客，争 10min 保 1h</h2><blockquote>
-<p>注：hexo，中文：十六进制(我不会读 -_-)</p>
-</blockquote>
-<h1 id="一、开始"><a href="#一、开始" class="headerlink" title="一、开始"></a>一、开始</h1><p>1.安装 Hexo</p>
-<pre><code>npm install -g hexo-cli
-</code></pre>
-<p>2.验证是否安装成功</p>
-<pre><code>hexo -v
-</code></pre>
-<p>3.初始化文件夹</p>
-<pre><code>hexo init &lt;文件夹名称&gt;
-</code></pre>
-<p>4.安装依赖</p>
-<pre><code>npm install
-</code></pre>
-<p>5.运行</p>
-<pre><code>npm run server / hexo s
-</code></pre>
-<p>6.创建新文章</p>
-<pre><code>hexo new &quot;test&quot;
-</code></pre>
-<p>7.安装 hexo 的 git 扩展</p>
-<pre><code>npm i hexo-deployer-git
-</code></pre>
-<p>8.配置 git</p>
+    <title>分享篇</title>
+    <url>/hexo-blog/2021/05/21/share/</url>
+    <content><![CDATA[<h2 id="散装分享"><a href="#散装分享" class="headerlink" title="散装分享"></a>散装分享</h2><h3 id="在线工具类"><a href="#在线工具类" class="headerlink" title="在线工具类"></a>在线工具类</h3><p>1.在线 PS<br><a href="https://ps.gaoding.com/#/">https://ps.gaoding.com/#/</a></p>
+<p>2.在线缩小 MP3 文件尺寸<br><a href="https://www.mp3smaller.com/zh/">https://www.mp3smaller.com/zh/</a></p>
+<p>3.在线 MP3 剪辑<br><a href="https://mp3cut.net/cn/">https://mp3cut.net/cn/</a></p>
+<p>4.在线模拟请求发送<br><a href="https://hoppscotch.io/cn/">https://hoppscotch.io/cn/</a></p>
+<p>5.音效下载<br><a href="https://sc.chinaz.com/yinxiao/?classid=&amp;keyword=%E6%91%87">https://sc.chinaz.com/yinxiao/?classid=&amp;keyword=%E6%91%87</a></p>
+<p>6.免费商用字体<br><a href="https://www.100font.com/">https://www.100font.com/</a></p>
+<h3 id="软件类"><a href="#软件类" class="headerlink" title="软件类"></a>软件类</h3><p>1.远程控制软件 ToDesk<br><a href="https://www.todesk.com/">https://www.todesk.com/</a></p>
+<p>2.录屏软件 Captura<br><a href="https://mathewsachin.github.io/Captura/">https://mathewsachin.github.io/Captura/</a></p>
+<p>3.文件夹样式管理 folder-painter<br><a href="https://www.sordum.org/downloads/?st-folder-painter">https://www.sordum.org/downloads/?st-folder-painter</a></p>
+<h3 id="随便逛逛（-）"><a href="#随便逛逛（-）" class="headerlink" title="随便逛逛（^_^）"></a>随便逛逛（^_^）</h3><p>1.<a href="https://youquhome.com/page/2/">https://youquhome.com/page/2/</a></p>
+<p>2.<a href="https://fakeupdate.net/">https://fakeupdate.net/</a></p>
+<p>3.<a href="https://www.imgcook.com/">https://www.imgcook.com/</a></p>
+<p>4.<a href="chrome://dino/">chrome://dino/</a></p>
+<p>5.<a href="https://www.zcool.com.cn/">https://www.zcool.com.cn/</a></p>
+<span id="more"></span>
+
+<h2 id="娱乐篇"><a href="#娱乐篇" class="headerlink" title="娱乐篇"></a>娱乐篇</h2><h3 id="影视漫"><a href="#影视漫" class="headerlink" title="影视漫"></a>影视漫</h3><p>1.《觉醒年代》</p>
+<p>2.《灵笼》</p>
+<h3 id="书"><a href="#书" class="headerlink" title="书"></a>书</h3><p>1.推理类</p>
 <blockquote>
-<p>_config.yml 文件</p>
+<p>本格推理：<br>奎因⭐<br>《X 的悲剧》<br>《Y 的悲剧》<br>《希腊棺材之谜》<br>阿婆<br>《无人生还》<br>《东方快车谋杀案》</p>
 </blockquote>
-<pre><code>deploy:
-type: git
-repository: https://github.com/doublestar2017/hexo-blog.git
-branch: master
-</code></pre>
+<p>2.其他</p>
 <blockquote>
-<p>如果您的网站存放在子目录中，例如 <a href="http://example.com/blog%EF%BC%8C%E5%88%99%E8%AF%B7%E5%B0%86%E6%82%A8%E7%9A%84">http://example.com/blog，则请将您的</a> url 设为 <a href="http://example.com/blog">http://example.com/blog</a> 并把 root 设为 /blog/。</p>
+<p>《三体》<br>《恶意》<br>《禅与摩托车维修艺术》</p>
 </blockquote>
-<p>8.生成静态网页</p>
-<pre><code>hexo g
-</code></pre>
-<p>9.提交</p>
-<pre><code>hexo d
-</code></pre>
-<p>10.更换主题(xxxx 是主题名)</p>
-<pre><code>git clone github地址 themes/xxxx
-</code></pre>
-<blockquote>
-<p>_config.yml 文件,注释掉原来的 theme 并新增一句 theme: xxxx<br>如果 clone 过程过于缓慢，可以直接下载主题代码包到 themes 文件夹下</p>
-</blockquote>
-<h1 id="二、问题"><a href="#二、问题" class="headerlink" title="二、问题"></a>二、问题</h1><p>1.在使用 hexo d -g 命令进行博客部署时遇到了名为 Spawn failed 的报错<br><a href="https://blog.csdn.net/HTL2018/article/details/106876940">解决方案</a></p>
-<p>2.遇到推送代码包失败/time out<br>可以尝试将.deploy_git 包直接上传到 github 上</p>
-<h1 id="三、简介"><a href="#三、简介" class="headerlink" title="三、简介"></a>三、简介</h1><p>Hexo 是一个开源的静态博客生成器，用 node.js 开发，作者是台湾大学生 tommy351。</p>
 ]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>分享流程</title>
-    <url>/hexo-blog/2021/05/25/process/</url>
-    <content><![CDATA[<hr>
-<center>
-<div id="flowchart-0" class="flow-chart"></div>
-</center>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 开始
-e=>end: over
-op=>operation: 一些啰里啰唆的开场白
-op2=>operation: 博客搭建
-op3=>operation: 散装分享
-op4=>operation: 娱乐篇分享
-cond=>condition: 时间剩余?
-st->op->op2->op3->cond
-cond(yes)->op4->e
-cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>]]></content>
       <categories>
         <category>分享</category>
       </categories>
@@ -372,40 +406,6 @@ cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{
 ]]></content>
       <categories>
         <category>博客</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>分享篇</title>
-    <url>/hexo-blog/2021/05/21/share/</url>
-    <content><![CDATA[<h2 id="散装分享"><a href="#散装分享" class="headerlink" title="散装分享"></a>散装分享</h2><h3 id="在线工具类"><a href="#在线工具类" class="headerlink" title="在线工具类"></a>在线工具类</h3><p>1.在线 PS<br><a href="https://ps.gaoding.com/#/">https://ps.gaoding.com/#/</a></p>
-<p>2.在线缩小 MP3 文件尺寸<br><a href="https://www.mp3smaller.com/zh/">https://www.mp3smaller.com/zh/</a></p>
-<p>3.在线 MP3 剪辑<br><a href="https://mp3cut.net/cn/">https://mp3cut.net/cn/</a></p>
-<p>4.在线模拟请求发送<br><a href="https://hoppscotch.io/cn/">https://hoppscotch.io/cn/</a></p>
-<p>5.音效下载<br><a href="https://sc.chinaz.com/yinxiao/?classid=&amp;keyword=%E6%91%87">https://sc.chinaz.com/yinxiao/?classid=&amp;keyword=%E6%91%87</a></p>
-<p>6.免费商用字体<br><a href="https://www.100font.com/">https://www.100font.com/</a></p>
-<h3 id="软件类"><a href="#软件类" class="headerlink" title="软件类"></a>软件类</h3><p>1.远程控制软件 ToDesk<br><a href="https://www.todesk.com/">https://www.todesk.com/</a></p>
-<p>2.录屏软件 Captura<br><a href="https://mathewsachin.github.io/Captura/">https://mathewsachin.github.io/Captura/</a></p>
-<p>3.文件夹样式管理 folder-painter<br><a href="https://www.sordum.org/downloads/?st-folder-painter">https://www.sordum.org/downloads/?st-folder-painter</a></p>
-<h3 id="随便逛逛（-）"><a href="#随便逛逛（-）" class="headerlink" title="随便逛逛（^_^）"></a>随便逛逛（^_^）</h3><p>1.<a href="https://youquhome.com/page/2/">https://youquhome.com/page/2/</a></p>
-<p>2.<a href="https://fakeupdate.net/">https://fakeupdate.net/</a></p>
-<p>3.<a href="https://www.imgcook.com/">https://www.imgcook.com/</a></p>
-<p>4.<a href="chrome://dino/">chrome://dino/</a></p>
-<p>5.<a href="https://www.zcool.com.cn/">https://www.zcool.com.cn/</a></p>
-<span id="more"></span>
-
-<h2 id="娱乐篇"><a href="#娱乐篇" class="headerlink" title="娱乐篇"></a>娱乐篇</h2><h3 id="影视漫"><a href="#影视漫" class="headerlink" title="影视漫"></a>影视漫</h3><p>1.《觉醒年代》</p>
-<p>2.《灵笼》</p>
-<h3 id="书"><a href="#书" class="headerlink" title="书"></a>书</h3><p>1.推理类</p>
-<blockquote>
-<p>本格推理：<br>奎因⭐<br>《X 的悲剧》<br>《Y 的悲剧》<br>《希腊棺材之谜》<br>阿婆<br>《无人生还》<br>《东方快车谋杀案》</p>
-</blockquote>
-<p>2.其他</p>
-<blockquote>
-<p>《三体》<br>《恶意》<br>《禅与摩托车维修艺术》</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>分享</category>
       </categories>
   </entry>
   <entry>
