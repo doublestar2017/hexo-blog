@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>随便记点</title>
+    <url>/hexo-blog/2021/05/21/0521/</url>
+    <content><![CDATA[<h3 id="小知识"><a href="#小知识" class="headerlink" title="小知识"></a>小知识</h3><h2 id="字体加粗"><a href="#字体加粗" class="headerlink" title="字体加粗"></a>字体加粗</h2><p>想要把字体加粗，但是 css 样式提供的最粗的 font-weight:900;也达不到要求时，可以利用 css 的 text-shadow 给字体加上多个阴影从而把字体调的更粗一点，当然直接换字体也是可以的。</p>
+<h2 id="画条龙-lt-未实践-gt"><a href="#画条龙-lt-未实践-gt" class="headerlink" title="画条龙&lt;未实践&gt;"></a>画条龙&lt;未实践&gt;</h2><p><a href="https://juejin.cn/post/6963476650356916254">https://juejin.cn/post/6963476650356916254</a></p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>选取适合的博客搭建工具</title>
+    <url>/hexo-blog/2021/05/16/blogs/</url>
+    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/79515327">文章：如何选定搭建个人独立博客工具</a></p>
+<h1 id="静态独立博客工具"><a href="#静态独立博客工具" class="headerlink" title="静态独立博客工具"></a>静态独立博客工具</h1><h2 id="Gitbook"><a href="#Gitbook" class="headerlink" title="Gitbook"></a>Gitbook</h2><p>Gitbook，基于 GitHub/Git 和 Markdown（或 AsciiDoc）编写和维护高质量的文档，分享知识，提高团队的工作效率；自带还可以用的站内搜索功能；如果您有搭建技术文档、编写电子书的诉求，那么 GitBook 将是一个不错的选择。Gitbook 示例站点。</p>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>Hexo 是一个由 Node.js 提供支持的快速，简单且功能强大的博客框架。超快速度: Node.js 所带来的超快生成速度，让上百个页面在几秒内瞬间完成渲染。一键部署：支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。支持 Markdown: 只需一条指令即可部署到 GitHub Pages, Heroku 或其他网站。丰富的插件: Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。</p>
+<h2 id="Jekyll"><a href="#Jekyll" class="headerlink" title="Jekyll"></a>Jekyll</h2><p>Jekyll 是一个由 Ruby 提供支持的简单、可识别博客的静态站点生成器，非常适合个人，项目或组织站点。 可以把它想象成一个基于文件的 CMS，没有复杂性。 Jekyll 获取您的内容，呈现 Markdown 和 Liquid 模板，并呈现一个完整的静态网站。 她是 GitHub Pages 背后的引擎，您可以使用它来直接从 GitHub 存储库托管站点。</p>
+<h2 id="Vuepress"><a href="#Vuepress" class="headerlink" title="Vuepress"></a>Vuepress</h2><p>VuePress，由 Vue 驱动的静态网站生成器；它追求简洁至上，以最少的配置帮助你专注于写作；使用它可享受 Vue + Webpack 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题；VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行，使得页面具有非常好的加载性能和搜索引擎优化（SEO）；另外还内置了诸多优质特性，比如 Markdown 拓展，自动生成 Service Worker、Google Analytics 集成、多语言支持、以及功能丰富的默认主题等等…… 如果您有搭建技术文档、个人博客的需求，那么 VuePress 将是超棒的选择。</p>
+<h2 id="Docz"><a href="#Docz" class="headerlink" title="Docz"></a>Docz</h2><p>Docz，为极简创造文档而生。它有如下特征：零配置，无需担心复杂的配置步骤，且使用十分简单；采用 Wepack 4 构建，完全热重新加载支持和自动代码分割；基于 MDX( Markdown + JSX )，极大降低组件编写复杂度；易于创建自定义主题；可插拔，支持定制灵活的解决方案；支持 Typescript，允许您的类型定义。另外，Docz 内置了些许组件，通过在组件构建过程中结合 AST 解析，有可能带来很多出类拔萃的想法，而 Docz 则是更好的选择。甚至，您可以轻松构建和部署您的文档，从而建立您的网站。</p>
+<h2 id="Hugo"><a href="#Hugo" class="headerlink" title="Hugo"></a>Hugo</h2><p>Hugo（The world’s fastest framework for building websites） 是最受欢迎的开源静态站点生成器之一。凭借其惊人的速度和灵活性，可在几秒钟内安装，以毫秒为单位构建；Hugo 使建筑网站再次变得有趣。Hugo 提供了一个强大的主题系统，易于实现，但即使是最复杂的网站也能生成；并能在任何服务器或您喜欢的 CDN 上托管。</p>
+<h2 id="Docsify"><a href="#Docsify" class="headerlink" title="Docsify"></a>Docsify</h2><p>Docsify：一个神奇的文档站点生成器。它简单轻巧，能即时生成您的文档网站，且拥有智能全文搜索插件。与 GitBook 不同，它不会生成静态 html 文件（但支持服务器端渲染，见示例）。相反，它可以智能地加载和解析您的 Markdown 文件并将其显示为网站。要开始使用它，您需要做的就是在 GitHub 页面上创建 index.html 并部署。如果您有静态文档需要挂载，那么 Docsify 是非常值得选择的工具利器。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>2021影视漫综---记录</title>
+    <url>/hexo-blog/2021/05/23/entertainment/</url>
+    <content><![CDATA[<h3 id="影视漫综"><a href="#影视漫综" class="headerlink" title="影视漫综"></a>影视漫综</h3><h2 id="影"><a href="#影" class="headerlink" title="影"></a>影</h2><hr>
+<h2 id="视"><a href="#视" class="headerlink" title="视"></a>视</h2><p>1.《觉醒年代》</p>
+<pre><code>中国近代史时间轴：
+1840年第一次鸦片战争
+1842年《南京条约》签订中国开始沦为半封建半殖民地国家
+1856年第二次鸦片战争开始
+1860年《中英北京条约》、《中俄北京条约》、《中法北京条约》分别签订
+1861年洋务运动开始
+1898年戊戌变法
+1894年中日甲午战争开始
+1895年《马关条约》签订，洋务运动失败
+1900年八国联军攻占北京
+1901年《辛丑条约〉签订
+1911年辛亥革命爆发
+1915年新文化运动开始
+1919年巴黎和会召开，五四爱国运动爆发
+1921年中国共产党成立，
+1922年第一次国共合作
+1931年九一八事变爆发，东北三省沦陷
+1937年卢沟桥事变，日本全面侵华战争爆发
+1945年抗日战争胜利
+1946年解放战争爆发
+1949年中华人民共和国成立
+
+人名笔记：
+1915-1921
+陈独秀（字仲甫）
+李大钊（字守常，青春）
+蔡元培（字孑民，进德会）
+辜鸿铭（温良）
+陈乔年
+陈延年
+赵世炎
+毛泽东（字润之）
+胡适
+杜威
+黎元洪
+周树人（⭐⭐鲁迅）
+刘半农
+钱玄同
+朱尔典
+王宠惠
+张耀增（司法总长）
+克德莱
+汪大燮（字伯棠，xie ）
+杨开铭
+久荪
+林纾
+邓中夏
+郭心刚
+汤尔和
+江冬秀
+邵飘萍（铁肩担道义，辣手著文章）
+吴炳湘
+胡仁源
+屈武（血溅总统府）
+马骏（马天安）
+周恩来（字翔宇）
+何叔衡
+黄凌霜
+维经斯基（俄国，马克思主义早期在中国传播）
+陈望道（粽子蘸墨水）
+俞秀松
+施存统
+杨明斋
+章士钊
+王光祈
+陈公培
+</code></pre>
+<hr>
+<h2 id="漫"><a href="#漫" class="headerlink" title="漫"></a>漫</h2><p>1.《灵笼》</p>
+<pre><code>  3D，末世废土风
+  玛娜生态
+  灯塔，三大法则，重立体
+</code></pre>
+<p>2.《钢之炼金术师 FULLMETAL ALCHEMIST》</p>
+<p>3.《来自新世界》</p>
+<p>4.《少女终末旅行》</p>
+<hr>
+<h2 id="综"><a href="#综" class="headerlink" title="综"></a>综</h2><p>1.《戏剧新生活》</p>
+<pre><code>    不一样的卡梅拉---刘添祺
+    鸡兔同笼---刘添祺
+    静止---吴彼
+    邂逅---丁一滕
+    ⭐倒影---丁一滕
+    ⭐巴西---刘添祺
+    一个绝望的人---吴昊宸
+    ⭐狗心---刘晓晔
+    一座剧院---吴彼
+    关于23号星球---刘晓邑
+</code></pre>
+]]></content>
+      <categories>
+        <category>娱乐</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>搭博客吗？十分钟的那种</title>
+    <url>/hexo-blog/2021/05/16/hexo/</url>
+    <content><![CDATA[<h1 id="宗旨"><a href="#宗旨" class="headerlink" title="宗旨"></a>宗旨</h1><h2 id="几行命令搭建博客，争-10min-保-1h"><a href="#几行命令搭建博客，争-10min-保-1h" class="headerlink" title="几行命令搭建博客，争 10min 保 1h"></a>几行命令搭建博客，争 10min 保 1h</h2><blockquote>
+<p>注：hexo，中文：十六进制(我不会读 -_-)</p>
+</blockquote>
+<h1 id="一、开始"><a href="#一、开始" class="headerlink" title="一、开始"></a>一、开始</h1><p>1.安装 Hexo</p>
+<pre><code>npm install -g hexo-cli
+</code></pre>
+<p>2.验证是否安装成功</p>
+<pre><code>hexo -v
+</code></pre>
+<p>3.初始化文件夹</p>
+<pre><code>hexo init &lt;文件夹名称&gt;
+</code></pre>
+<p>4.安装依赖</p>
+<pre><code>npm install
+</code></pre>
+<p>5.运行</p>
+<pre><code>npm run server / hexo s
+</code></pre>
+<p>6.创建新文章</p>
+<pre><code>hexo new &quot;test&quot;
+</code></pre>
+<p>7.安装 hexo 的 git 扩展</p>
+<pre><code>npm i hexo-deployer-git
+</code></pre>
+<p>8.配置 git</p>
+<blockquote>
+<p>_config.yml 文件</p>
+</blockquote>
+<pre><code>deploy:
+type: git
+repository: https://github.com/doublestar2017/hexo-blog.git
+branch: master
+</code></pre>
+<blockquote>
+<p>如果您的网站存放在子目录中，例如 <a href="http://example.com/blog%EF%BC%8C%E5%88%99%E8%AF%B7%E5%B0%86%E6%82%A8%E7%9A%84">http://example.com/blog，则请将您的</a> url 设为 <a href="http://example.com/blog">http://example.com/blog</a> 并把 root 设为 /blog/。</p>
+</blockquote>
+<p>8.生成静态网页</p>
+<pre><code>hexo g
+</code></pre>
+<p>9.提交</p>
+<pre><code>hexo d
+</code></pre>
+<p>10.更换主题(xxxx 是主题名)</p>
+<pre><code>git clone github地址 themes/xxxx
+</code></pre>
+<blockquote>
+<p>_config.yml 文件,注释掉原来的 theme 并新增一句 theme: xxxx<br>如果 clone 过程过于缓慢，可以直接下载主题代码包到 themes 文件夹下</p>
+</blockquote>
+<h1 id="二、问题"><a href="#二、问题" class="headerlink" title="二、问题"></a>二、问题</h1><p>1.在使用 hexo d -g 命令进行博客部署时遇到了名为 Spawn failed 的报错<br><a href="https://blog.csdn.net/HTL2018/article/details/106876940">解决方案</a></p>
+<p>2.遇到推送代码包失败/time out<br>可以尝试将.deploy_git 包直接上传到 github 上</p>
+<h1 id="三、简介"><a href="#三、简介" class="headerlink" title="三、简介"></a>三、简介</h1><p>Hexo 是一个开源的静态博客生成器，用 node.js 开发，作者是台湾大学生 tommy351。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>FAQ</title>
+    <url>/hexo-blog/2021/05/25/faq/</url>
+    <content><![CDATA[<h3 id="问题总结"><a href="#问题总结" class="headerlink" title="问题总结"></a>问题总结</h3><p><a href="https://shimo.im/docs/6GXVWKKxcKJHQxQj/">to 石墨 =&gt; 问题总结</a></p>
+]]></content>
+      <categories>
+        <category>FAQ</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>分享流程</title>
+    <url>/hexo-blog/2021/05/25/process/</url>
+    <content><![CDATA[<hr>
+<center>
+<div id="flowchart-0" class="flow-chart"></div>
+</center>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 开始
+e=>end: over
+op=>operation: 一些啰里啰唆的开场白
+op2=>operation: 博客搭建
+op3=>operation: 散装分享
+op4=>operation: 娱乐篇分享
+cond=>condition: 时间剩余?
+st->op->op2->op3->cond
+cond(yes)->op4->e
+cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>2021阅读计划</title>
+    <url>/hexo-blog/2021/05/23/read/</url>
+    <content><![CDATA[<h3 id="目标：12本-↑"><a href="#目标：12本-↑" class="headerlink" title="目标：12本 ↑"></a>目标：12本 ↑</h3><h4 id="更新时间：2021-06-01"><a href="#更新时间：2021-06-01" class="headerlink" title="更新时间：2021-06-01"></a>更新时间：2021-06-01</h4><table>
+<thead>
+<tr>
+<th align="left">序号</th>
+<th align="left">书名</th>
+<th align="center">进度</th>
+<th align="center">随记</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">1</td>
+<td align="left">《百万英镑》</td>
+<td align="center">100%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left">《无人生还》</td>
+<td align="center">100%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left">《希腊棺材之谜》</td>
+<td align="center">100%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">4</td>
+<td align="left">《鼠疫》</td>
+<td align="center">100%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">5</td>
+<td align="left">《狂人日记》</td>
+<td align="center">61%</td>
+<td align="center">鲁迅大大，yyds;孤独者，很赞</td>
+</tr>
+<tr>
+<td align="left">6</td>
+<td align="left">《字母表谜案》</td>
+<td align="center">100%</td>
+<td align="center">看了，P和F篇，除了反转倒是令人满意，感觉推理手法方面过于个人猜测化了，细节没有处理很棒；C篇设计的很巧合，但过于巧合；最后Y篇的故事不错，比较精彩</td>
+</tr>
+<tr>
+<td align="left">7</td>
+<td align="left">《ZOO》</td>
+<td align="center">0%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">8</td>
+<td align="left">《野性的呼唤》</td>
+<td align="center">40%</td>
+<td align="center">巴克 VS 斯匹兹</td>
+</tr>
+<tr>
+<td align="left">9</td>
+<td align="left">《1984》</td>
+<td align="center">0%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">10</td>
+<td align="left">《美丽新世界》</td>
+<td align="center">0%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">11</td>
+<td align="left">《猫城记》</td>
+<td align="center">0%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">12</td>
+<td align="left">《玻璃球游戏》</td>
+<td align="center">0%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">13</td>
+<td align="left">《球形闪电》</td>
+<td align="center">0%</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>阅读</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>2021分享会记录</title>
+    <url>/hexo-blog/2021/05/25/shareRecord/</url>
+    <content><![CDATA[<p>CMS 自主建站:织梦，帝国，wordpress<br>IDM下载：<a href="https://www.lanzous.com/i5sglrc">https://www.lanzous.com/i5sglrc</a><br>熊猫压缩：<a href="https://tinypng.com/">https://tinypng.com/</a><br>刷题牛客：<a href="https://www.nowcoder.com/">https://www.nowcoder.com/</a><br>JQ组件库：<a href="https://www.jq22.com/">https://www.jq22.com/</a><br>看板娘添加：<a href="https://www.cnblogs.com/yjlaugus/p/8724881.html#/c/subject/p/8724881.html">https://www.cnblogs.com/yjlaugus/p/8724881.html#/c/subject/p/8724881.html</a><br>SEO<br>CDN</p>
+<p>富文本编辑器：<a href="https://www.wangeditor.com/">https://www.wangeditor.com/</a><br>echarts:<br><a href="https://www.makeapie.com/explore.html#sort=rank~timeframe=all~author=all">https://www.makeapie.com/explore.html#sort=rank~timeframe=all~author=all</a><br>css3系列之详解perspective:<br><a href="https://www.cnblogs.com/yanggeng/p/11285856.html">https://www.cnblogs.com/yanggeng/p/11285856.html</a><br>动效：<a href="https://www.delac.io/wow/">https://www.delac.io/wow/</a></p>
+<p>V2Ray<br>学习网站：<a href="https://www.udemy.com/courses/search/?src=ukw&amp;q=angular">https://www.udemy.com/courses/search/?src=ukw&amp;q=angular</a><br>freess<br>微信公众号：薄荷阅读<br>参考：<a href="https://github.com/ToutyRater">https://github.com/ToutyRater</a><br>github代码：<a href="https://github.com/v2ray/v2ray-core">https://github.com/v2ray/v2ray-core</a><br>安装包下载链接：<a href="https://github.com/v2ray/v2ray-core/releases">https://github.com/v2ray/v2ray-core/releases</a></p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>一些有意思的废话 --- 夭折的博客们</title>
+    <url>/hexo-blog/2021/05/24/story/</url>
+    <content><![CDATA[<h3 id="我和博客死磕的那些年"><a href="#我和博客死磕的那些年" class="headerlink" title="我和博客死磕的那些年"></a>我和博客死磕的那些年</h3><blockquote>
+<p>记录那些我曾经搭建的，并且夭折的博客</p>
+</blockquote>
+<hr>
+<h6 id="刚学了点-JSP-一些增删改查-练习练习……"><a href="#刚学了点-JSP-一些增删改查-练习练习……" class="headerlink" title="刚学了点 JSP+一些增删改查,练习练习……"></a>刚学了点 JSP+一些增删改查,练习练习……</h6><blockquote>
+<p><img src="https://i.niupic.com/images/2021/05/25/9its.png"></p>
+</blockquote>
+<hr>
+<h6 id="学习了一段时间前端，我觉得可以了！！！"><a href="#学习了一段时间前端，我觉得可以了！！！" class="headerlink" title="学习了一段时间前端，我觉得可以了！！！"></a>学习了一段时间前端，我觉得可以了！！！</h6><blockquote>
+<p><img src="https://i.niupic.com/images/2021/05/25/9inJ.png"></p>
+</blockquote>
+<hr>
+<h6 id="学习了-Vue，要不练练？"><a href="#学习了-Vue，要不练练？" class="headerlink" title="学习了 Vue，要不练练？"></a>学习了 Vue，要不练练？</h6><blockquote>
+<p><img src="https://i.niupic.com/images/2021/05/25/9inL.png"></p>
+</blockquote>
+<hr>
+<h6 id="开始学习-vite-vue3-0，练习中……"><a href="#开始学习-vite-vue3-0，练习中……" class="headerlink" title="开始学习 vite+vue3.0，练习中……"></a>开始学习 vite+vue3.0，练习中……</h6><blockquote>
+<p><img src="https://i.niupic.com/images/2021/05/25/9io6.png"></p>
+</blockquote>
+<blockquote>
+<img src="https://i.niupic.com/images/2021/05/25/9ip3.png" width="50%" height="50%">
+</blockquote>
+<hr>
+<h6 id="走个捷径，Hexo"><a href="#走个捷径，Hexo" class="headerlink" title="走个捷径，Hexo"></a>走个捷径，Hexo</h6><blockquote>
+<p><img src="https://i.niupic.com/images/2021/05/25/9ioc.png"></p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>分享篇</title>
+    <url>/hexo-blog/2021/05/21/share/</url>
+    <content><![CDATA[<h2 id="散装分享"><a href="#散装分享" class="headerlink" title="散装分享"></a>散装分享</h2><h3 id="在线工具类"><a href="#在线工具类" class="headerlink" title="在线工具类"></a>在线工具类</h3><p>1.在线 PS<br><a href="https://ps.gaoding.com/#/">https://ps.gaoding.com/#/</a></p>
+<p>2.在线缩小 MP3 文件尺寸<br><a href="https://www.mp3smaller.com/zh/">https://www.mp3smaller.com/zh/</a></p>
+<p>3.在线 MP3 剪辑<br><a href="https://mp3cut.net/cn/">https://mp3cut.net/cn/</a></p>
+<p>4.在线模拟请求发送<br><a href="https://hoppscotch.io/cn/">https://hoppscotch.io/cn/</a></p>
+<p>5.音效下载<br><a href="https://sc.chinaz.com/yinxiao/?classid=&amp;keyword=%E6%91%87">https://sc.chinaz.com/yinxiao/?classid=&amp;keyword=%E6%91%87</a></p>
+<p>6.免费商用字体<br><a href="https://www.100font.com/">https://www.100font.com/</a></p>
+<h3 id="软件类"><a href="#软件类" class="headerlink" title="软件类"></a>软件类</h3><p>1.远程控制软件 ToDesk<br><a href="https://www.todesk.com/">https://www.todesk.com/</a></p>
+<p>2.录屏软件 Captura<br><a href="https://mathewsachin.github.io/Captura/">https://mathewsachin.github.io/Captura/</a></p>
+<p>3.文件夹样式管理 folder-painter<br><a href="https://www.sordum.org/downloads/?st-folder-painter">https://www.sordum.org/downloads/?st-folder-painter</a></p>
+<h3 id="随便逛逛（-）"><a href="#随便逛逛（-）" class="headerlink" title="随便逛逛（^_^）"></a>随便逛逛（^_^）</h3><p>1.<a href="https://youquhome.com/page/2/">https://youquhome.com/page/2/</a></p>
+<p>2.<a href="https://fakeupdate.net/">https://fakeupdate.net/</a></p>
+<p>3.<a href="https://www.imgcook.com/">https://www.imgcook.com/</a></p>
+<p>4.<a href="chrome://dino/">chrome://dino/</a></p>
+<p>5.<a href="https://www.zcool.com.cn/">https://www.zcool.com.cn/</a></p>
+<span id="more"></span>
+
+<h2 id="娱乐篇"><a href="#娱乐篇" class="headerlink" title="娱乐篇"></a>娱乐篇</h2><h3 id="影视漫"><a href="#影视漫" class="headerlink" title="影视漫"></a>影视漫</h3><p>1.《觉醒年代》</p>
+<p>2.《灵笼》</p>
+<h3 id="书"><a href="#书" class="headerlink" title="书"></a>书</h3><p>1.推理类</p>
+<blockquote>
+<p>本格推理：<br>奎因⭐<br>《X 的悲剧》<br>《Y 的悲剧》<br>《希腊棺材之谜》<br>阿婆<br>《无人生还》<br>《东方快车谋杀案》</p>
+</blockquote>
+<p>2.其他</p>
+<blockquote>
+<p>《三体》<br>《恶意》<br>《禅与摩托车维修艺术》</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Vite</title>
+    <url>/hexo-blog/2021/05/24/vite/</url>
+    <content><![CDATA[<h3 id="vite-的工作原理，它为什么这么快"><a href="#vite-的工作原理，它为什么这么快" class="headerlink" title="vite 的工作原理，它为什么这么快"></a>vite 的工作原理，它为什么这么快</h3><blockquote>
+<p>index.html 文件</p>
+</blockquote>
+<pre><code>&lt;body&gt;
+  &lt;div id=&quot;app&quot;&gt;&lt;/div&gt;
+  &lt;script type=&quot;module&quot; src=&quot;/src/main.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<p>&lt;<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/script">https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/script</a></p>
+<blockquote>
+<p>.vue =&gt; 拦截请求 =&gt; 编译 =&gt; 返回给客户端</p>
+</blockquote>
+<ol>
+<li><p>vite 利用了客户端能力不用打包其他服务，原生的 ES Import 直接输出提高了冷启动速度。</p>
+</li>
+<li><p>vite 按需编译当前页面需要的组件，而不需要打包整个 APP 的组件，这样的提升对比 cli 无疑是项目越大速度差距越大。</p>
+</li>
+<li><p>HMR 更新速度不会和模块数量牵扯，vite 会让 HMR 一如既往的保持快速。</p>
+</li>
+</ol>
+<h3 id="vite-对-TS-的支持"><a href="#vite-对-TS-的支持" class="headerlink" title="vite 对 TS 的支持"></a>vite 对 TS 的支持</h3><blockquote>
+<p>vite 内置 TS 的支持，开箱即用</p>
+</blockquote>
+<pre><code>&lt;script lang=&quot;ts&quot;&gt;
+import &#123; ref &#125; from &quot;vue&quot;;
+
+export default &#123;
+  name: &#39;App&#39;,
+  setup()&#123;
+    let hello = ref&lt;string&gt;(&quot;1&quot;);
+    console.log(hello.value);
+  &#125;
+&#125;
+&lt;/script&gt;
+</code></pre>
+]]></content>
+      <categories>
+        <category>vite</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>example</title>
+    <url>/hexo-blog/2021/06/06/example/</url>
+    <content><![CDATA[<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3>]]></content>
+      <categories>
+        <category>例子</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>PMP</title>
+    <url>/hexo-blog/2021/06/06/pmp/</url>
+    <content><![CDATA[<h3 id="PMP"><a href="#PMP" class="headerlink" title="PMP"></a>PMP</h3><p>考试：6月20号;200道选择题;4小时;上午9:00–13:00</p>
+<p>讲义+脑图+刷题</p>
+]]></content>
+      <categories>
+        <category>考试</category>
+      </categories>
+  </entry>
+</search>
