@@ -126,20 +126,20 @@
       </categories>
   </entry>
   <entry>
-    <title>example</title>
-    <url>/hexo-blog/2021/06/06/example/</url>
-    <content><![CDATA[<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3>]]></content>
-      <categories>
-        <category>例子</category>
-      </categories>
-  </entry>
-  <entry>
     <title>FAQ</title>
     <url>/hexo-blog/2021/05/25/faq/</url>
     <content><![CDATA[<h3 id="问题总结"><a href="#问题总结" class="headerlink" title="问题总结"></a>问题总结</h3><p><a href="https://shimo.im/docs/6GXVWKKxcKJHQxQj/">to 石墨 =&gt; 问题总结</a></p>
 ]]></content>
       <categories>
         <category>FAQ</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>example</title>
+    <url>/hexo-blog/2021/06/06/example/</url>
+    <content><![CDATA[<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3>]]></content>
+      <categories>
+        <category>例子</category>
       </categories>
   </entry>
   <entry>
@@ -199,6 +199,37 @@ branch: master
 ]]></content>
       <categories>
         <category>博客</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>PMP</title>
+    <url>/hexo-blog/2021/06/06/pmp/</url>
+    <content><![CDATA[<h3 id="PMP"><a href="#PMP" class="headerlink" title="PMP"></a>PMP</h3><p>考试：6月20号;200道选择题;4小时;上午9:00–13:00</p>
+<p>讲义+脑图+刷题</p>
+]]></content>
+      <categories>
+        <category>考试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>分享流程</title>
+    <url>/hexo-blog/2021/05/25/process/</url>
+    <content><![CDATA[<hr>
+<center>
+<div id="flowchart-0" class="flow-chart"></div>
+</center>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 开始
+e=>end: over
+op=>operation: 一些啰里啰唆的开场白
+op2=>operation: 博客搭建
+op3=>operation: 散装分享
+op4=>operation: 娱乐篇分享
+cond=>condition: 时间剩余?
+st->op->op2->op3->cond
+cond(yes)->op4->e
+cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>]]></content>
+      <categories>
+        <category>分享</category>
       </categories>
   </entry>
   <entry>
@@ -295,37 +326,6 @@ branch: master
 ]]></content>
       <categories>
         <category>阅读</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>PMP</title>
-    <url>/hexo-blog/2021/06/06/pmp/</url>
-    <content><![CDATA[<h3 id="PMP"><a href="#PMP" class="headerlink" title="PMP"></a>PMP</h3><p>考试：6月20号;200道选择题;4小时;上午9:00–13:00</p>
-<p>讲义+脑图+刷题</p>
-]]></content>
-      <categories>
-        <category>考试</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>分享流程</title>
-    <url>/hexo-blog/2021/05/25/process/</url>
-    <content><![CDATA[<hr>
-<center>
-<div id="flowchart-0" class="flow-chart"></div>
-</center>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 开始
-e=>end: over
-op=>operation: 一些啰里啰唆的开场白
-op2=>operation: 博客搭建
-op3=>operation: 散装分享
-op4=>operation: 娱乐篇分享
-cond=>condition: 时间剩余?
-st->op->op2->op3->cond
-cond(yes)->op4->e
-cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>]]></content>
-      <categories>
-        <category>分享</category>
       </categories>
   </entry>
   <entry>
