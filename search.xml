@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>选取适合的博客搭建工具</title>
+    <url>/hexo-blog/2021/05/16/blogs/</url>
+    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/79515327">文章：如何选定搭建个人独立博客工具</a></p>
+<h1 id="静态独立博客工具"><a href="#静态独立博客工具" class="headerlink" title="静态独立博客工具"></a>静态独立博客工具</h1><h2 id="Gitbook"><a href="#Gitbook" class="headerlink" title="Gitbook"></a>Gitbook</h2><p>Gitbook，基于 GitHub/Git 和 Markdown（或 AsciiDoc）编写和维护高质量的文档，分享知识，提高团队的工作效率；自带还可以用的站内搜索功能；如果您有搭建技术文档、编写电子书的诉求，那么 GitBook 将是一个不错的选择。Gitbook 示例站点。</p>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>Hexo 是一个由 Node.js 提供支持的快速，简单且功能强大的博客框架。超快速度: Node.js 所带来的超快生成速度，让上百个页面在几秒内瞬间完成渲染。一键部署：支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。支持 Markdown: 只需一条指令即可部署到 GitHub Pages, Heroku 或其他网站。丰富的插件: Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。</p>
+<h2 id="Jekyll"><a href="#Jekyll" class="headerlink" title="Jekyll"></a>Jekyll</h2><p>Jekyll 是一个由 Ruby 提供支持的简单、可识别博客的静态站点生成器，非常适合个人，项目或组织站点。 可以把它想象成一个基于文件的 CMS，没有复杂性。 Jekyll 获取您的内容，呈现 Markdown 和 Liquid 模板，并呈现一个完整的静态网站。 她是 GitHub Pages 背后的引擎，您可以使用它来直接从 GitHub 存储库托管站点。</p>
+<h2 id="Vuepress"><a href="#Vuepress" class="headerlink" title="Vuepress"></a>Vuepress</h2><p>VuePress，由 Vue 驱动的静态网站生成器；它追求简洁至上，以最少的配置帮助你专注于写作；使用它可享受 Vue + Webpack 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题；VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行，使得页面具有非常好的加载性能和搜索引擎优化（SEO）；另外还内置了诸多优质特性，比如 Markdown 拓展，自动生成 Service Worker、Google Analytics 集成、多语言支持、以及功能丰富的默认主题等等…… 如果您有搭建技术文档、个人博客的需求，那么 VuePress 将是超棒的选择。</p>
+<h2 id="Docz"><a href="#Docz" class="headerlink" title="Docz"></a>Docz</h2><p>Docz，为极简创造文档而生。它有如下特征：零配置，无需担心复杂的配置步骤，且使用十分简单；采用 Wepack 4 构建，完全热重新加载支持和自动代码分割；基于 MDX( Markdown + JSX )，极大降低组件编写复杂度；易于创建自定义主题；可插拔，支持定制灵活的解决方案；支持 Typescript，允许您的类型定义。另外，Docz 内置了些许组件，通过在组件构建过程中结合 AST 解析，有可能带来很多出类拔萃的想法，而 Docz 则是更好的选择。甚至，您可以轻松构建和部署您的文档，从而建立您的网站。</p>
+<h2 id="Hugo"><a href="#Hugo" class="headerlink" title="Hugo"></a>Hugo</h2><p>Hugo（The world’s fastest framework for building websites） 是最受欢迎的开源静态站点生成器之一。凭借其惊人的速度和灵活性，可在几秒钟内安装，以毫秒为单位构建；Hugo 使建筑网站再次变得有趣。Hugo 提供了一个强大的主题系统，易于实现，但即使是最复杂的网站也能生成；并能在任何服务器或您喜欢的 CDN 上托管。</p>
+<h2 id="Docsify"><a href="#Docsify" class="headerlink" title="Docsify"></a>Docsify</h2><p>Docsify：一个神奇的文档站点生成器。它简单轻巧，能即时生成您的文档网站，且拥有智能全文搜索插件。与 GitBook 不同，它不会生成静态 html 文件（但支持服务器端渲染，见示例）。相反，它可以智能地加载和解析您的 Markdown 文件并将其显示为网站。要开始使用它，您需要做的就是在 GitHub 页面上创建 index.html 并部署。如果您有静态文档需要挂载，那么 Docsify 是非常值得选择的工具利器。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>example</title>
+    <url>/hexo-blog/2021/06/06/example/</url>
+    <content><![CDATA[<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3>]]></content>
+      <categories>
+        <category>例子</category>
+      </categories>
+  </entry>
+  <entry>
     <title>随便记点</title>
     <url>/hexo-blog/2021/05/21/0521/</url>
     <content><![CDATA[<h3 id="小知识"><a href="#小知识" class="headerlink" title="小知识"></a>小知识</h3><h2 id="字体加粗"><a href="#字体加粗" class="headerlink" title="字体加粗"></a>字体加粗</h2><p>想要把字体加粗，但是 css 样式提供的最粗的 font-weight:900;也达不到要求时，可以利用 css 的 text-shadow 给字体加上多个阴影从而把字体调的更粗一点，当然直接换字体也是可以的。</p>
@@ -8,6 +32,15 @@
 ]]></content>
       <categories>
         <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>FAQ</title>
+    <url>/hexo-blog/2021/05/25/faq/</url>
+    <content><![CDATA[<h3 id="问题总结"><a href="#问题总结" class="headerlink" title="问题总结"></a>问题总结</h3><p><a href="https://shimo.im/docs/6GXVWKKxcKJHQxQj/">to 石墨 =&gt; 问题总结</a></p>
+]]></content>
+      <categories>
+        <category>FAQ</category>
       </categories>
   </entry>
   <entry>
@@ -110,36 +143,139 @@
       </categories>
   </entry>
   <entry>
-    <title>选取适合的博客搭建工具</title>
-    <url>/hexo-blog/2021/05/16/blogs/</url>
-    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/79515327">文章：如何选定搭建个人独立博客工具</a></p>
-<h1 id="静态独立博客工具"><a href="#静态独立博客工具" class="headerlink" title="静态独立博客工具"></a>静态独立博客工具</h1><h2 id="Gitbook"><a href="#Gitbook" class="headerlink" title="Gitbook"></a>Gitbook</h2><p>Gitbook，基于 GitHub/Git 和 Markdown（或 AsciiDoc）编写和维护高质量的文档，分享知识，提高团队的工作效率；自带还可以用的站内搜索功能；如果您有搭建技术文档、编写电子书的诉求，那么 GitBook 将是一个不错的选择。Gitbook 示例站点。</p>
-<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>Hexo 是一个由 Node.js 提供支持的快速，简单且功能强大的博客框架。超快速度: Node.js 所带来的超快生成速度，让上百个页面在几秒内瞬间完成渲染。一键部署：支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。支持 Markdown: 只需一条指令即可部署到 GitHub Pages, Heroku 或其他网站。丰富的插件: Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。</p>
-<h2 id="Jekyll"><a href="#Jekyll" class="headerlink" title="Jekyll"></a>Jekyll</h2><p>Jekyll 是一个由 Ruby 提供支持的简单、可识别博客的静态站点生成器，非常适合个人，项目或组织站点。 可以把它想象成一个基于文件的 CMS，没有复杂性。 Jekyll 获取您的内容，呈现 Markdown 和 Liquid 模板，并呈现一个完整的静态网站。 她是 GitHub Pages 背后的引擎，您可以使用它来直接从 GitHub 存储库托管站点。</p>
-<h2 id="Vuepress"><a href="#Vuepress" class="headerlink" title="Vuepress"></a>Vuepress</h2><p>VuePress，由 Vue 驱动的静态网站生成器；它追求简洁至上，以最少的配置帮助你专注于写作；使用它可享受 Vue + Webpack 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题；VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行，使得页面具有非常好的加载性能和搜索引擎优化（SEO）；另外还内置了诸多优质特性，比如 Markdown 拓展，自动生成 Service Worker、Google Analytics 集成、多语言支持、以及功能丰富的默认主题等等…… 如果您有搭建技术文档、个人博客的需求，那么 VuePress 将是超棒的选择。</p>
-<h2 id="Docz"><a href="#Docz" class="headerlink" title="Docz"></a>Docz</h2><p>Docz，为极简创造文档而生。它有如下特征：零配置，无需担心复杂的配置步骤，且使用十分简单；采用 Wepack 4 构建，完全热重新加载支持和自动代码分割；基于 MDX( Markdown + JSX )，极大降低组件编写复杂度；易于创建自定义主题；可插拔，支持定制灵活的解决方案；支持 Typescript，允许您的类型定义。另外，Docz 内置了些许组件，通过在组件构建过程中结合 AST 解析，有可能带来很多出类拔萃的想法，而 Docz 则是更好的选择。甚至，您可以轻松构建和部署您的文档，从而建立您的网站。</p>
-<h2 id="Hugo"><a href="#Hugo" class="headerlink" title="Hugo"></a>Hugo</h2><p>Hugo（The world’s fastest framework for building websites） 是最受欢迎的开源静态站点生成器之一。凭借其惊人的速度和灵活性，可在几秒钟内安装，以毫秒为单位构建；Hugo 使建筑网站再次变得有趣。Hugo 提供了一个强大的主题系统，易于实现，但即使是最复杂的网站也能生成；并能在任何服务器或您喜欢的 CDN 上托管。</p>
-<h2 id="Docsify"><a href="#Docsify" class="headerlink" title="Docsify"></a>Docsify</h2><p>Docsify：一个神奇的文档站点生成器。它简单轻巧，能即时生成您的文档网站，且拥有智能全文搜索插件。与 GitBook 不同，它不会生成静态 html 文件（但支持服务器端渲染，见示例）。相反，它可以智能地加载和解析您的 Markdown 文件并将其显示为网站。要开始使用它，您需要做的就是在 GitHub 页面上创建 index.html 并部署。如果您有静态文档需要挂载，那么 Docsify 是非常值得选择的工具利器。</p>
+    <title>搭博客吗？十分钟的那种</title>
+    <url>/hexo-blog/2021/05/16/hexo/</url>
+    <content><![CDATA[<h1 id="宗旨"><a href="#宗旨" class="headerlink" title="宗旨"></a>宗旨</h1><h2 id="几行命令搭建博客，争-10min-保-1h"><a href="#几行命令搭建博客，争-10min-保-1h" class="headerlink" title="几行命令搭建博客，争 10min 保 1h"></a>几行命令搭建博客，争 10min 保 1h</h2><blockquote>
+<p>注：hexo，中文：十六进制(我不会读 -_-)</p>
+</blockquote>
+<h1 id="一、开始"><a href="#一、开始" class="headerlink" title="一、开始"></a>一、开始</h1><p>1.安装 Hexo</p>
+<pre><code>npm install -g hexo-cli
+</code></pre>
+<p>2.验证是否安装成功</p>
+<pre><code>hexo -v
+</code></pre>
+<p>3.初始化文件夹</p>
+<pre><code>hexo init &lt;文件夹名称&gt;
+</code></pre>
+<p>4.安装依赖</p>
+<pre><code>npm install
+</code></pre>
+<p>5.运行</p>
+<pre><code>npm run server / hexo s
+</code></pre>
+<p>6.创建新文章</p>
+<pre><code>hexo new &quot;test&quot;
+</code></pre>
+<p>7.安装 hexo 的 git 扩展</p>
+<pre><code>npm i hexo-deployer-git
+</code></pre>
+<p>8.配置 git</p>
+<blockquote>
+<p>_config.yml 文件</p>
+</blockquote>
+<pre><code>deploy:
+type: git
+repository: https://github.com/doublestar2017/hexo-blog.git
+branch: master
+</code></pre>
+<blockquote>
+<p>如果您的网站存放在子目录中，例如 <a href="http://example.com/blog%EF%BC%8C%E5%88%99%E8%AF%B7%E5%B0%86%E6%82%A8%E7%9A%84">http://example.com/blog，则请将您的</a> url 设为 <a href="http://example.com/blog">http://example.com/blog</a> 并把 root 设为 /blog/。</p>
+</blockquote>
+<p>8.生成静态网页</p>
+<pre><code>hexo g
+</code></pre>
+<p>9.提交</p>
+<pre><code>hexo d
+</code></pre>
+<p>10.更换主题(xxxx 是主题名)</p>
+<pre><code>git clone github地址 themes/xxxx
+</code></pre>
+<blockquote>
+<p>_config.yml 文件,注释掉原来的 theme 并新增一句 theme: xxxx<br>如果 clone 过程过于缓慢，可以直接下载主题代码包到 themes 文件夹下</p>
+</blockquote>
+<h1 id="二、问题"><a href="#二、问题" class="headerlink" title="二、问题"></a>二、问题</h1><p>1.在使用 hexo d -g 命令进行博客部署时遇到了名为 Spawn failed 的报错<br><a href="https://blog.csdn.net/HTL2018/article/details/106876940">解决方案</a></p>
+<p>2.遇到推送代码包失败/time out<br>可以尝试将.deploy_git 包直接上传到 github 上</p>
+<h1 id="三、简介"><a href="#三、简介" class="headerlink" title="三、简介"></a>三、简介</h1><p>Hexo 是一个开源的静态博客生成器，用 node.js 开发，作者是台湾大学生 tommy351。</p>
 ]]></content>
       <categories>
         <category>博客</category>
       </categories>
   </entry>
   <entry>
-    <title>example</title>
-    <url>/hexo-blog/2021/06/06/example/</url>
-    <content><![CDATA[<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3>]]></content>
+    <title>PMP</title>
+    <url>/hexo-blog/2021/06/06/pmp/</url>
+    <content><![CDATA[<h3 id="PMP"><a href="#PMP" class="headerlink" title="PMP"></a>PMP</h3><p>考试：6月20号;200道选择题;4小时;上午9:00–13:00</p>
+<p>讲义+脑图+刷题</p>
+]]></content>
       <categories>
-        <category>例子</category>
+        <category>考试</category>
       </categories>
   </entry>
   <entry>
-    <title>FAQ</title>
-    <url>/hexo-blog/2021/05/25/faq/</url>
-    <content><![CDATA[<h3 id="问题总结"><a href="#问题总结" class="headerlink" title="问题总结"></a>问题总结</h3><p><a href="https://shimo.im/docs/6GXVWKKxcKJHQxQj/">to 石墨 =&gt; 问题总结</a></p>
+    <title>分享流程</title>
+    <url>/hexo-blog/2021/05/25/process/</url>
+    <content><![CDATA[<hr>
+<center>
+<div id="flowchart-0" class="flow-chart"></div>
+</center>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 开始
+e=>end: over
+op=>operation: 一些啰里啰唆的开场白
+op2=>operation: 博客搭建
+op3=>operation: 散装分享
+op4=>operation: 娱乐篇分享
+cond=>condition: 时间剩余?
+st->op->op2->op3->cond
+cond(yes)->op4->e
+cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>一些有意思的废话 --- 夭折的博客们</title>
+    <url>/hexo-blog/2021/05/24/story/</url>
+    <content><![CDATA[<h3 id="我和博客死磕的那些年"><a href="#我和博客死磕的那些年" class="headerlink" title="我和博客死磕的那些年"></a>我和博客死磕的那些年</h3><blockquote>
+<p>记录那些我曾经搭建的，并且夭折的博客</p>
+</blockquote>
+<hr>
+<h6 id="刚学了点-JSP-一些增删改查-练习练习……"><a href="#刚学了点-JSP-一些增删改查-练习练习……" class="headerlink" title="刚学了点 JSP+一些增删改查,练习练习……"></a>刚学了点 JSP+一些增删改查,练习练习……</h6><blockquote>
+<p><img src="https://i.niupic.com/images/2021/05/25/9its.png"></p>
+</blockquote>
+<hr>
+<h6 id="学习了一段时间前端，我觉得可以了！！！"><a href="#学习了一段时间前端，我觉得可以了！！！" class="headerlink" title="学习了一段时间前端，我觉得可以了！！！"></a>学习了一段时间前端，我觉得可以了！！！</h6><blockquote>
+<p><img src="https://i.niupic.com/images/2021/05/25/9inJ.png"></p>
+</blockquote>
+<hr>
+<h6 id="学习了-Vue，要不练练？"><a href="#学习了-Vue，要不练练？" class="headerlink" title="学习了 Vue，要不练练？"></a>学习了 Vue，要不练练？</h6><blockquote>
+<p><img src="https://i.niupic.com/images/2021/05/25/9inL.png"></p>
+</blockquote>
+<hr>
+<h6 id="开始学习-vite-vue3-0，练习中……"><a href="#开始学习-vite-vue3-0，练习中……" class="headerlink" title="开始学习 vite+vue3.0，练习中……"></a>开始学习 vite+vue3.0，练习中……</h6><blockquote>
+<p><img src="https://i.niupic.com/images/2021/05/25/9io6.png"></p>
+</blockquote>
+<blockquote>
+<img src="https://i.niupic.com/images/2021/05/25/9ip3.png" width="50%" height="50%">
+</blockquote>
+<hr>
+<h6 id="走个捷径，Hexo"><a href="#走个捷径，Hexo" class="headerlink" title="走个捷径，Hexo"></a>走个捷径，Hexo</h6><blockquote>
+<p><img src="https://i.niupic.com/images/2021/05/25/9ioc.png"></p>
+</blockquote>
+<hr>
 ]]></content>
       <categories>
-        <category>FAQ</category>
+        <category>博客</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>2021分享会记录</title>
+    <url>/hexo-blog/2021/05/25/shareRecord/</url>
+    <content><![CDATA[<p>CMS 自主建站:织梦，帝国，wordpress<br>IDM下载：<a href="https://www.lanzous.com/i5sglrc">https://www.lanzous.com/i5sglrc</a><br>熊猫压缩：<a href="https://tinypng.com/">https://tinypng.com/</a><br>刷题牛客：<a href="https://www.nowcoder.com/">https://www.nowcoder.com/</a><br>JQ组件库：<a href="https://www.jq22.com/">https://www.jq22.com/</a><br>看板娘添加：<a href="https://www.cnblogs.com/yjlaugus/p/8724881.html#/c/subject/p/8724881.html">https://www.cnblogs.com/yjlaugus/p/8724881.html#/c/subject/p/8724881.html</a><br>SEO<br>CDN</p>
+<p>富文本编辑器：<a href="https://www.wangeditor.com/">https://www.wangeditor.com/</a><br>echarts:<br><a href="https://www.makeapie.com/explore.html#sort=rank~timeframe=all~author=all">https://www.makeapie.com/explore.html#sort=rank~timeframe=all~author=all</a><br>css3系列之详解perspective:<br><a href="https://www.cnblogs.com/yanggeng/p/11285856.html">https://www.cnblogs.com/yanggeng/p/11285856.html</a><br>动效：<a href="https://www.delac.io/wow/">https://www.delac.io/wow/</a></p>
+<p>V2Ray<br>学习网站：<a href="https://www.udemy.com/courses/search/?src=ukw&amp;q=angular">https://www.udemy.com/courses/search/?src=ukw&amp;q=angular</a><br>freess<br>微信公众号：薄荷阅读<br>参考：<a href="https://github.com/ToutyRater">https://github.com/ToutyRater</a><br>github代码：<a href="https://github.com/v2ray/v2ray-core">https://github.com/v2ray/v2ray-core</a><br>安装包下载链接：<a href="https://github.com/v2ray/v2ray-core/releases">https://github.com/v2ray/v2ray-core/releases</a></p>
+]]></content>
+      <categories>
+        <category>分享</category>
       </categories>
   </entry>
   <entry>
@@ -239,96 +375,6 @@
       </categories>
   </entry>
   <entry>
-    <title>搭博客吗？十分钟的那种</title>
-    <url>/hexo-blog/2021/05/16/hexo/</url>
-    <content><![CDATA[<h1 id="宗旨"><a href="#宗旨" class="headerlink" title="宗旨"></a>宗旨</h1><h2 id="几行命令搭建博客，争-10min-保-1h"><a href="#几行命令搭建博客，争-10min-保-1h" class="headerlink" title="几行命令搭建博客，争 10min 保 1h"></a>几行命令搭建博客，争 10min 保 1h</h2><blockquote>
-<p>注：hexo，中文：十六进制(我不会读 -_-)</p>
-</blockquote>
-<h1 id="一、开始"><a href="#一、开始" class="headerlink" title="一、开始"></a>一、开始</h1><p>1.安装 Hexo</p>
-<pre><code>npm install -g hexo-cli
-</code></pre>
-<p>2.验证是否安装成功</p>
-<pre><code>hexo -v
-</code></pre>
-<p>3.初始化文件夹</p>
-<pre><code>hexo init &lt;文件夹名称&gt;
-</code></pre>
-<p>4.安装依赖</p>
-<pre><code>npm install
-</code></pre>
-<p>5.运行</p>
-<pre><code>npm run server / hexo s
-</code></pre>
-<p>6.创建新文章</p>
-<pre><code>hexo new &quot;test&quot;
-</code></pre>
-<p>7.安装 hexo 的 git 扩展</p>
-<pre><code>npm i hexo-deployer-git
-</code></pre>
-<p>8.配置 git</p>
-<blockquote>
-<p>_config.yml 文件</p>
-</blockquote>
-<pre><code>deploy:
-type: git
-repository: https://github.com/doublestar2017/hexo-blog.git
-branch: master
-</code></pre>
-<blockquote>
-<p>如果您的网站存放在子目录中，例如 <a href="http://example.com/blog%EF%BC%8C%E5%88%99%E8%AF%B7%E5%B0%86%E6%82%A8%E7%9A%84">http://example.com/blog，则请将您的</a> url 设为 <a href="http://example.com/blog">http://example.com/blog</a> 并把 root 设为 /blog/。</p>
-</blockquote>
-<p>8.生成静态网页</p>
-<pre><code>hexo g
-</code></pre>
-<p>9.提交</p>
-<pre><code>hexo d
-</code></pre>
-<p>10.更换主题(xxxx 是主题名)</p>
-<pre><code>git clone github地址 themes/xxxx
-</code></pre>
-<blockquote>
-<p>_config.yml 文件,注释掉原来的 theme 并新增一句 theme: xxxx<br>如果 clone 过程过于缓慢，可以直接下载主题代码包到 themes 文件夹下</p>
-</blockquote>
-<h1 id="二、问题"><a href="#二、问题" class="headerlink" title="二、问题"></a>二、问题</h1><p>1.在使用 hexo d -g 命令进行博客部署时遇到了名为 Spawn failed 的报错<br><a href="https://blog.csdn.net/HTL2018/article/details/106876940">解决方案</a></p>
-<p>2.遇到推送代码包失败/time out<br>可以尝试将.deploy_git 包直接上传到 github 上</p>
-<h1 id="三、简介"><a href="#三、简介" class="headerlink" title="三、简介"></a>三、简介</h1><p>Hexo 是一个开源的静态博客生成器，用 node.js 开发，作者是台湾大学生 tommy351。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>分享流程</title>
-    <url>/hexo-blog/2021/05/25/process/</url>
-    <content><![CDATA[<hr>
-<center>
-<div id="flowchart-0" class="flow-chart"></div>
-</center>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 开始
-e=>end: over
-op=>operation: 一些啰里啰唆的开场白
-op2=>operation: 博客搭建
-op3=>operation: 散装分享
-op4=>operation: 娱乐篇分享
-cond=>condition: 时间剩余?
-st->op->op2->op3->cond
-cond(yes)->op4->e
-cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>PMP</title>
-    <url>/hexo-blog/2021/06/06/pmp/</url>
-    <content><![CDATA[<h3 id="PMP"><a href="#PMP" class="headerlink" title="PMP"></a>PMP</h3><p>考试：6月20号;200道选择题;4小时;上午9:00–13:00</p>
-<p>讲义+脑图+刷题</p>
-]]></content>
-      <categories>
-        <category>考试</category>
-      </categories>
-  </entry>
-  <entry>
     <title>分享篇</title>
     <url>/hexo-blog/2021/05/21/share/</url>
     <content><![CDATA[<h2 id="散装分享"><a href="#散装分享" class="headerlink" title="散装分享"></a>散装分享</h2><h3 id="在线工具类"><a href="#在线工具类" class="headerlink" title="在线工具类"></a>在线工具类</h3><p>1.在线 PS<br><a href="https://ps.gaoding.com/#/">https://ps.gaoding.com/#/</a></p>
@@ -360,52 +406,6 @@ cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{
 ]]></content>
       <categories>
         <category>分享</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>2021分享会记录</title>
-    <url>/hexo-blog/2021/05/25/shareRecord/</url>
-    <content><![CDATA[<p>CMS 自主建站:织梦，帝国，wordpress<br>IDM下载：<a href="https://www.lanzous.com/i5sglrc">https://www.lanzous.com/i5sglrc</a><br>熊猫压缩：<a href="https://tinypng.com/">https://tinypng.com/</a><br>刷题牛客：<a href="https://www.nowcoder.com/">https://www.nowcoder.com/</a><br>JQ组件库：<a href="https://www.jq22.com/">https://www.jq22.com/</a><br>看板娘添加：<a href="https://www.cnblogs.com/yjlaugus/p/8724881.html#/c/subject/p/8724881.html">https://www.cnblogs.com/yjlaugus/p/8724881.html#/c/subject/p/8724881.html</a><br>SEO<br>CDN</p>
-<p>富文本编辑器：<a href="https://www.wangeditor.com/">https://www.wangeditor.com/</a><br>echarts:<br><a href="https://www.makeapie.com/explore.html#sort=rank~timeframe=all~author=all">https://www.makeapie.com/explore.html#sort=rank~timeframe=all~author=all</a><br>css3系列之详解perspective:<br><a href="https://www.cnblogs.com/yanggeng/p/11285856.html">https://www.cnblogs.com/yanggeng/p/11285856.html</a><br>动效：<a href="https://www.delac.io/wow/">https://www.delac.io/wow/</a></p>
-<p>V2Ray<br>学习网站：<a href="https://www.udemy.com/courses/search/?src=ukw&amp;q=angular">https://www.udemy.com/courses/search/?src=ukw&amp;q=angular</a><br>freess<br>微信公众号：薄荷阅读<br>参考：<a href="https://github.com/ToutyRater">https://github.com/ToutyRater</a><br>github代码：<a href="https://github.com/v2ray/v2ray-core">https://github.com/v2ray/v2ray-core</a><br>安装包下载链接：<a href="https://github.com/v2ray/v2ray-core/releases">https://github.com/v2ray/v2ray-core/releases</a></p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>一些有意思的废话 --- 夭折的博客们</title>
-    <url>/hexo-blog/2021/05/24/story/</url>
-    <content><![CDATA[<h3 id="我和博客死磕的那些年"><a href="#我和博客死磕的那些年" class="headerlink" title="我和博客死磕的那些年"></a>我和博客死磕的那些年</h3><blockquote>
-<p>记录那些我曾经搭建的，并且夭折的博客</p>
-</blockquote>
-<hr>
-<h6 id="刚学了点-JSP-一些增删改查-练习练习……"><a href="#刚学了点-JSP-一些增删改查-练习练习……" class="headerlink" title="刚学了点 JSP+一些增删改查,练习练习……"></a>刚学了点 JSP+一些增删改查,练习练习……</h6><blockquote>
-<p><img src="https://i.niupic.com/images/2021/05/25/9its.png"></p>
-</blockquote>
-<hr>
-<h6 id="学习了一段时间前端，我觉得可以了！！！"><a href="#学习了一段时间前端，我觉得可以了！！！" class="headerlink" title="学习了一段时间前端，我觉得可以了！！！"></a>学习了一段时间前端，我觉得可以了！！！</h6><blockquote>
-<p><img src="https://i.niupic.com/images/2021/05/25/9inJ.png"></p>
-</blockquote>
-<hr>
-<h6 id="学习了-Vue，要不练练？"><a href="#学习了-Vue，要不练练？" class="headerlink" title="学习了 Vue，要不练练？"></a>学习了 Vue，要不练练？</h6><blockquote>
-<p><img src="https://i.niupic.com/images/2021/05/25/9inL.png"></p>
-</blockquote>
-<hr>
-<h6 id="开始学习-vite-vue3-0，练习中……"><a href="#开始学习-vite-vue3-0，练习中……" class="headerlink" title="开始学习 vite+vue3.0，练习中……"></a>开始学习 vite+vue3.0，练习中……</h6><blockquote>
-<p><img src="https://i.niupic.com/images/2021/05/25/9io6.png"></p>
-</blockquote>
-<blockquote>
-<img src="https://i.niupic.com/images/2021/05/25/9ip3.png" width="50%" height="50%">
-</blockquote>
-<hr>
-<h6 id="走个捷径，Hexo"><a href="#走个捷径，Hexo" class="headerlink" title="走个捷径，Hexo"></a>走个捷径，Hexo</h6><blockquote>
-<p><img src="https://i.niupic.com/images/2021/05/25/9ioc.png"></p>
-</blockquote>
-<hr>
-]]></content>
-      <categories>
-        <category>博客</category>
       </categories>
   </entry>
   <entry>
