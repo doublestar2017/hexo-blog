@@ -160,7 +160,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/hexo-blog/archives/">
         
-          <span class="site-state-item-count">13</span>
+          <span class="site-state-item-count">17</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -170,16 +170,12 @@
         <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
   </nav>
 </div>
-  <div class="links-of-author site-overview-item animated">
-      <span class="links-of-author-item">
-        <a href="https://github.com/doublestar2017" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;doublestar2017" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://space.bilibili.com/15609504" title="B站 → https:&#x2F;&#x2F;space.bilibili.com&#x2F;15609504" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>B站</a>
-      </span>
-  </div>
 
 
 
@@ -472,6 +468,572 @@ if(canvas.getContext){
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://doublestar2017.github.io/hexo-blog/2021/05/24/vite/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://i.niupic.com/images/2021/06/06/9kmk.jpg">
+      <meta itemprop="name" content="star">
+      <meta itemprop="description" content="前端；生活；娱乐">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="星星的博客">
+      <meta itemprop="pv" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/hexo-blog/2021/05/24/vite/" class="post-title-link" itemprop="url">Vite</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-05-24 10:04:25" itemprop="dateCreated datePublished" datetime="2021-05-24T10:04:25+08:00">2021-05-24</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-05-25 10:09:27" itemprop="dateModified" datetime="2021-05-25T10:09:27+08:00">2021-05-25</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/hexo-blog/categories/vite/" itemprop="url" rel="index"><span itemprop="name">vite</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="vite-的工作原理，它为什么这么快"><a href="#vite-的工作原理，它为什么这么快" class="headerlink" title="vite 的工作原理，它为什么这么快"></a>vite 的工作原理，它为什么这么快</h3><blockquote>
+<p>index.html 文件</p>
+</blockquote>
+<pre><code>&lt;body&gt;
+  &lt;div id=&quot;app&quot;&gt;&lt;/div&gt;
+  &lt;script type=&quot;module&quot; src=&quot;/src/main.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<p>&lt;<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/script">https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/script</a></p>
+<blockquote>
+<p>.vue =&gt; 拦截请求 =&gt; 编译 =&gt; 返回给客户端</p>
+</blockquote>
+<ol>
+<li><p>vite 利用了客户端能力不用打包其他服务，原生的 ES Import 直接输出提高了冷启动速度。</p>
+</li>
+<li><p>vite 按需编译当前页面需要的组件，而不需要打包整个 APP 的组件，这样的提升对比 cli 无疑是项目越大速度差距越大。</p>
+</li>
+<li><p>HMR 更新速度不会和模块数量牵扯，vite 会让 HMR 一如既往的保持快速。</p>
+</li>
+</ol>
+<h3 id="vite-对-TS-的支持"><a href="#vite-对-TS-的支持" class="headerlink" title="vite 对 TS 的支持"></a>vite 对 TS 的支持</h3><blockquote>
+<p>vite 内置 TS 的支持，开箱即用</p>
+</blockquote>
+<pre><code>&lt;script lang=&quot;ts&quot;&gt;
+import &#123; ref &#125; from &quot;vue&quot;;
+
+export default &#123;
+  name: &#39;App&#39;,
+  setup()&#123;
+    let hello = ref&lt;string&gt;(&quot;1&quot;);
+    console.log(hello.value);
+  &#125;
+&#125;
+&lt;/script&gt;
+</code></pre>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://doublestar2017.github.io/hexo-blog/2021/05/23/read/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://i.niupic.com/images/2021/06/06/9kmk.jpg">
+      <meta itemprop="name" content="star">
+      <meta itemprop="description" content="前端；生活；娱乐">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="星星的博客">
+      <meta itemprop="pv" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/hexo-blog/2021/05/23/read/" class="post-title-link" itemprop="url">2021阅读计划</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-05-23 20:58:18" itemprop="dateCreated datePublished" datetime="2021-05-23T20:58:18+08:00">2021-05-23</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-06-27 09:37:04" itemprop="dateModified" datetime="2021-06-27T09:37:04+08:00">2021-06-27</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/hexo-blog/categories/%E9%98%85%E8%AF%BB/" itemprop="url" rel="index"><span itemprop="name">阅读</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="目标：12本-↑"><a href="#目标：12本-↑" class="headerlink" title="目标：12本 ↑"></a>目标：12本 ↑</h3><h4 id="更新时间：2021-06-27"><a href="#更新时间：2021-06-27" class="headerlink" title="更新时间：2021-06-27"></a>更新时间：2021-06-27</h4><table>
+<thead>
+<tr>
+<th align="left">序号</th>
+<th align="left">书名</th>
+<th align="center">进度</th>
+<th align="center">随记</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">1</td>
+<td align="left">《百万英镑》</td>
+<td align="center">100%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left">《无人生还》</td>
+<td align="center">100%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left">《希腊棺材之谜》</td>
+<td align="center">100%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">4</td>
+<td align="left">《鼠疫》</td>
+<td align="center">100%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">5</td>
+<td align="left">《狂人日记》</td>
+<td align="center">100%</td>
+<td align="center">鲁迅大大，yyds;孤独者，很赞；最后一章以中国神话为主题</td>
+</tr>
+<tr>
+<td align="left">6</td>
+<td align="left">《字母表谜案》</td>
+<td align="center">100%</td>
+<td align="center">看了，P和F篇，除了反转倒是令人满意，感觉推理手法方面过于个人猜测化了，细节没有处理很棒；C篇设计的很巧合，但过于巧合；最后Y篇的故事不错，比较精彩</td>
+</tr>
+<tr>
+<td align="left">7</td>
+<td align="left">《ZOO》</td>
+<td align="center">44%</td>
+<td align="center">短篇，真实反转，故事性极高</td>
+</tr>
+<tr>
+<td align="left">8</td>
+<td align="left">《野性的呼唤》</td>
+<td align="center">100%</td>
+<td align="center">巴克 VS 斯匹兹；泪目，大福之死；巴克和约翰桑顿；回归</td>
+</tr>
+<tr>
+<td align="left">9</td>
+<td align="left">《1984》</td>
+<td align="center">1%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">10</td>
+<td align="left">《美丽新世界》</td>
+<td align="center">0%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">11</td>
+<td align="left">《猫城记》</td>
+<td align="center">0%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">12</td>
+<td align="left">《玻璃球游戏》</td>
+<td align="center">0%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">13</td>
+<td align="left">《球形闪电》</td>
+<td align="center">0%</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://doublestar2017.github.io/hexo-blog/2021/05/23/entertainment/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://i.niupic.com/images/2021/06/06/9kmk.jpg">
+      <meta itemprop="name" content="star">
+      <meta itemprop="description" content="前端；生活；娱乐">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="星星的博客">
+      <meta itemprop="pv" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/hexo-blog/2021/05/23/entertainment/" class="post-title-link" itemprop="url">2021影视漫综---记录</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-05-23 16:30:18" itemprop="dateCreated datePublished" datetime="2021-05-23T16:30:18+08:00">2021-05-23</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-06-27 09:47:23" itemprop="dateModified" datetime="2021-06-27T09:47:23+08:00">2021-06-27</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/hexo-blog/categories/%E5%A8%B1%E4%B9%90/" itemprop="url" rel="index"><span itemprop="name">娱乐</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="影视漫综"><a href="#影视漫综" class="headerlink" title="影视漫综"></a>影视漫综</h3><h2 id="影"><a href="#影" class="headerlink" title="影"></a>影</h2><p>1.《妖猫记》</p>
+<hr>
+<h2 id="视"><a href="#视" class="headerlink" title="视"></a>视</h2><p>1.《觉醒年代》</p>
+<pre><code>中国近代史时间轴：
+1840年第一次鸦片战争
+1842年《南京条约》签订中国开始沦为半封建半殖民地国家
+1856年第二次鸦片战争开始
+1860年《中英北京条约》、《中俄北京条约》、《中法北京条约》分别签订
+1861年洋务运动开始
+1898年戊戌变法
+1894年中日甲午战争开始
+1895年《马关条约》签订，洋务运动失败
+1900年八国联军攻占北京
+1901年《辛丑条约〉签订
+1911年辛亥革命爆发
+1915年新文化运动开始
+1919年巴黎和会召开，五四爱国运动爆发
+1921年中国共产党成立，
+1922年第一次国共合作
+1931年九一八事变爆发，东北三省沦陷
+1937年卢沟桥事变，日本全面侵华战争爆发
+1945年抗日战争胜利
+1946年解放战争爆发
+1949年中华人民共和国成立
+</code></pre>
+<details>
+<summary>展开查看</summary>
+<code>
+    人名笔记：
+    1915-1921
+    陈独秀（字仲甫）
+    李大钊（字守常，青春）
+    蔡元培（字孑民，进德会）
+    辜鸿铭（温良）
+    陈乔年
+    陈延年
+    赵世炎
+    毛泽东（字润之）
+    胡适
+    杜威
+    黎元洪
+    周树人（⭐⭐鲁迅）
+    刘半农
+    钱玄同
+    朱尔典
+    王宠惠
+    张耀增（司法总长）
+    克德莱
+    汪大燮（字伯棠，xie ）
+    杨开铭
+    久荪
+    林纾
+    邓中夏
+    郭心刚
+    汤尔和
+    江冬秀
+    邵飘萍（铁肩担道义，辣手著文章）
+    吴炳湘
+    胡仁源
+    屈武（血溅总统府）
+    马骏（马天安）
+    周恩来（字翔宇）
+    何叔衡
+    黄凌霜
+    维经斯基（俄国，马克思主义早期在中国传播）
+    陈望道（粽子蘸墨水）
+    俞秀松
+    施存统
+    杨明斋
+    章士钊
+    王光祈
+    陈公培
+</code>
+</details>
+
+<p>2.《窥探》待看<br>3.《我是遗物整理师》待看</p>
+<hr>
+<h2 id="漫"><a href="#漫" class="headerlink" title="漫"></a>漫</h2><p>1.《灵笼》</p>
+<pre><code>  3D，末世废土风
+  玛娜生态
+  灯塔，三大法则，重立体
+</code></pre>
+<p>2.《钢之炼金术师 FULLMETAL ALCHEMIST》</p>
+<p>3.《来自新世界》</p>
+<p>4.《少女终末旅行》</p>
+<p>5.《银魂》</p>
+<hr>
+<h2 id="综"><a href="#综" class="headerlink" title="综"></a>综</h2><p>1.《戏剧新生活》</p>
+<pre><code>    不一样的卡梅拉---刘添祺
+    鸡兔同笼---刘添祺
+    静止---吴彼
+    邂逅---丁一滕
+    ⭐倒影---丁一滕
+    ⭐巴西---刘添祺
+    一个绝望的人---吴昊宸
+    ⭐狗心---刘晓晔
+    一座剧院---吴彼
+    关于23号星球---刘晓邑
+</code></pre>
+<p>2.恰好是少年</p>
+<pre><code>    自驾游
+</code></pre>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://doublestar2017.github.io/hexo-blog/2021/05/21/share/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://i.niupic.com/images/2021/06/06/9kmk.jpg">
+      <meta itemprop="name" content="star">
+      <meta itemprop="description" content="前端；生活；娱乐">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="星星的博客">
+      <meta itemprop="pv" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/hexo-blog/2021/05/21/share/" class="post-title-link" itemprop="url">分享篇</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-05-21 16:09:32" itemprop="dateCreated datePublished" datetime="2021-05-21T16:09:32+08:00">2021-05-21</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-06-06 17:42:14" itemprop="dateModified" datetime="2021-06-06T17:42:14+08:00">2021-06-06</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/hexo-blog/categories/%E5%88%86%E4%BA%AB/" itemprop="url" rel="index"><span itemprop="name">分享</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="散装分享"><a href="#散装分享" class="headerlink" title="散装分享"></a>散装分享</h2><h3 id="在线工具类"><a href="#在线工具类" class="headerlink" title="在线工具类"></a>在线工具类</h3><p>1.在线 PS<br><a target="_blank" rel="noopener" href="https://ps.gaoding.com/#/">https://ps.gaoding.com/#/</a></p>
+<p>2.在线缩小 MP3 文件尺寸<br><a target="_blank" rel="noopener" href="https://www.mp3smaller.com/zh/">https://www.mp3smaller.com/zh/</a></p>
+<p>3.在线 MP3 剪辑<br><a target="_blank" rel="noopener" href="https://mp3cut.net/cn/">https://mp3cut.net/cn/</a></p>
+<p>4.在线模拟请求发送<br><a target="_blank" rel="noopener" href="https://hoppscotch.io/cn/">https://hoppscotch.io/cn/</a></p>
+<p>5.音效下载<br><a target="_blank" rel="noopener" href="https://sc.chinaz.com/yinxiao/?classid=&amp;keyword=%E6%91%87">https://sc.chinaz.com/yinxiao/?classid=&amp;keyword=%E6%91%87</a></p>
+<p>6.免费商用字体<br><a target="_blank" rel="noopener" href="https://www.100font.com/">https://www.100font.com/</a></p>
+<h3 id="软件类"><a href="#软件类" class="headerlink" title="软件类"></a>软件类</h3><p>1.远程控制软件 ToDesk<br><a target="_blank" rel="noopener" href="https://www.todesk.com/">https://www.todesk.com/</a></p>
+<p>2.录屏软件 Captura<br><a target="_blank" rel="noopener" href="https://mathewsachin.github.io/Captura/">https://mathewsachin.github.io/Captura/</a></p>
+<p>3.文件夹样式管理 folder-painter<br><a target="_blank" rel="noopener" href="https://www.sordum.org/downloads/?st-folder-painter">https://www.sordum.org/downloads/?st-folder-painter</a></p>
+<h3 id="随便逛逛（-）"><a href="#随便逛逛（-）" class="headerlink" title="随便逛逛（^_^）"></a>随便逛逛（^_^）</h3><p>1.<a target="_blank" rel="noopener" href="https://youquhome.com/page/2/">https://youquhome.com/page/2/</a></p>
+<p>2.<a target="_blank" rel="noopener" href="https://fakeupdate.net/">https://fakeupdate.net/</a></p>
+<p>3.<a target="_blank" rel="noopener" href="https://www.imgcook.com/">https://www.imgcook.com/</a></p>
+<p>4.<a href="chrome://dino/">chrome://dino/</a></p>
+<p>5.<a target="_blank" rel="noopener" href="https://www.zcool.com.cn/">https://www.zcool.com.cn/</a></p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/hexo-blog/2021/05/21/share/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
