@@ -249,42 +249,42 @@ cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{
 </thead>
 <tbody><tr>
 <td align="left">九</td>
-<td align="left"></td>
+<td align="left">53</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="left">十</td>
-<td align="left"></td>
+<td align="left">58</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="left">十一</td>
-<td align="left"></td>
+<td align="left">60</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="left">十二</td>
-<td align="left"></td>
+<td align="left">58</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="left">十三</td>
-<td align="left"></td>
+<td align="left">69</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="left">十四</td>
-<td align="left"></td>
-<td align="center"></td>
+<td align="left">60</td>
+<td align="center">68</td>
 </tr>
 <tr>
 <td align="left">十五</td>
-<td align="left"></td>
-<td align="center"></td>
+<td align="left">63</td>
+<td align="center">69</td>
 </tr>
 <tr>
 <td align="left">十六</td>
-<td align="left"></td>
+<td align="left">70</td>
 <td align="center"></td>
 </tr>
 </tbody></table>
@@ -532,6 +532,9 @@ export default &#123;
 <p>12.想象的翅膀 Maginary</p>
 <p>13.黑暗沼泽庄园</p>
 ]]></content>
+      <categories>
+        <category>game</category>
+      </categories>
   </entry>
   <entry>
     <title>2021搬家日志</title>
@@ -541,9 +544,9 @@ export default &#123;
 <p>0614<br>上午<br>万佳花苑顶楼，2500，过远，13分钟<br>下午<br>旺吴金座，2800，朝南，卧室的衣柜放了个马桶，不能忍（看了两遍）<br>旺吴金座，2600，朝北，没油烟机（看了两遍）<br>新盛花园，2600，各方面不错</p>
 <p>距离远，房子尚可，房租尚可，pass<br>距离不错，租金一般，装修一般，可</p>
 ]]></content>
-      <tags>
-        <tag>搬家</tag>
-      </tags>
+      <categories>
+        <category>搬家</category>
+      </categories>
   </entry>
   <entry>
     <title>小练习</title>
@@ -563,6 +566,9 @@ export default &#123;
 <h4 id="13-Web贪吃蛇小游戏"><a href="#13-Web贪吃蛇小游戏" class="headerlink" title="13.Web贪吃蛇小游戏"></a>13.Web贪吃蛇小游戏</h4><p><a href="https://juejin.cn/post/6975125802526441502">https://juejin.cn/post/6975125802526441502</a></p>
 <h4 id="14-5分钟带你学会小摩尔眼睛跟随鼠标移动效果"><a href="#14-5分钟带你学会小摩尔眼睛跟随鼠标移动效果" class="headerlink" title="14.5分钟带你学会小摩尔眼睛跟随鼠标移动效果"></a>14.5分钟带你学会小摩尔眼睛跟随鼠标移动效果</h4><p><a href="https://juejin.cn/post/6977281427935068197">https://juejin.cn/post/6977281427935068197</a></p>
 ]]></content>
+      <categories>
+        <category>练习</category>
+      </categories>
   </entry>
   <entry>
     <title>threeJs</title>
@@ -587,8 +593,8 @@ export default &#123;
 </blockquote>
 <h4 id="CSS-Inspiration"><a href="#CSS-Inspiration" class="headerlink" title="CSS-Inspiration"></a>CSS-Inspiration</h4><p><a href="https://chokcoco.github.io/CSS-Inspiration/#/">https://chokcoco.github.io/CSS-Inspiration/#/</a></p>
 ]]></content>
-      <tags>
-        <tag>文章</tag>
-      </tags>
+      <categories>
+        <category>文章</category>
+      </categories>
   </entry>
 </search>
