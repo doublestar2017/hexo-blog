@@ -5,6 +5,8 @@
     <url>/hexo-blog/2021/05/21/0521/</url>
     <content><![CDATA[<h3 id="小知识"><a href="#小知识" class="headerlink" title="小知识"></a>小知识</h3><h2 id="字体加粗"><a href="#字体加粗" class="headerlink" title="字体加粗"></a>字体加粗</h2><p>想要把字体加粗，但是 css 样式提供的最粗的 font-weight:900;也达不到要求时，可以利用 css 的 text-shadow 给字体加上多个阴影从而把字体调的更粗一点，当然直接换字体也是可以的。</p>
 <h2 id="画条龙-lt-未实践-gt"><a href="#画条龙-lt-未实践-gt" class="headerlink" title="画条龙&lt;未实践&gt;"></a>画条龙&lt;未实践&gt;</h2><p><a href="https://juejin.cn/post/6963476650356916254">https://juejin.cn/post/6963476650356916254</a></p>
+<p>data = (new Function(“return” + data))()</p>
+<p>grid<br>P228 运动<br>promise<br>threejs</p>
 ]]></content>
       <categories>
         <category>笔记</category>
@@ -27,17 +29,9 @@
       </categories>
   </entry>
   <entry>
-    <title>example</title>
-    <url>/hexo-blog/2021/06/06/example/</url>
-    <content><![CDATA[<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3>]]></content>
-      <categories>
-        <category>例子</category>
-      </categories>
-  </entry>
-  <entry>
     <title>2021影视漫综---记录</title>
     <url>/hexo-blog/2021/05/23/entertainment/</url>
-    <content><![CDATA[<h3 id="影视漫综"><a href="#影视漫综" class="headerlink" title="影视漫综"></a>影视漫综</h3><h2 id="影"><a href="#影" class="headerlink" title="影"></a>影</h2><p>1.《妖猫记》</p>
+    <content><![CDATA[<h3 id="影视漫综"><a href="#影视漫综" class="headerlink" title="影视漫综"></a>影视漫综</h3><h2 id="影"><a href="#影" class="headerlink" title="影"></a>影</h2><p>1.《妖猫记》<br>2.《1921》<br>3.《十二怒汉》<br>4.《未来的未来》</p>
 <hr>
 <h2 id="视"><a href="#视" class="headerlink" title="视"></a>视</h2><p>1.《觉醒年代》</p>
 <pre><code>中国近代史时间轴：
@@ -112,7 +106,8 @@
 </code>
 </details>
 
-<p>2.《窥探》待看<br>3.《我是遗物整理师》待看</p>
+<p>2.《窥探》<br>变态基因</p>
+<p>3.《我是遗物整理师》待看</p>
 <hr>
 <h2 id="漫"><a href="#漫" class="headerlink" title="漫"></a>漫</h2><p>1.《灵笼》</p>
 <pre><code>  3D，末世废土风
@@ -137,8 +132,9 @@
     关于23号星球---刘晓邑
 </code></pre>
 <p>2.恰好是少年</p>
-<pre><code>    自驾游
+<pre><code>    自驾游=&gt;练车
 </code></pre>
+<p>3.向往的生活4</p>
 ]]></content>
       <categories>
         <category>娱乐</category>
@@ -288,6 +284,7 @@ cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{
 <td align="center"></td>
 </tr>
 </tbody></table>
+<p>结果：过了</p>
 ]]></content>
       <categories>
         <category>考试</category>
@@ -296,7 +293,7 @@ cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{
   <entry>
     <title>2021阅读计划</title>
     <url>/hexo-blog/2021/05/23/read/</url>
-    <content><![CDATA[<h3 id="目标：12本-↑"><a href="#目标：12本-↑" class="headerlink" title="目标：12本 ↑"></a>目标：12本 ↑</h3><h4 id="更新时间：2021-06-27"><a href="#更新时间：2021-06-27" class="headerlink" title="更新时间：2021-06-27"></a>更新时间：2021-06-27</h4><table>
+    <content><![CDATA[<h3 id="目标：12本-↑"><a href="#目标：12本-↑" class="headerlink" title="目标：12本 ↑"></a>目标：12本 ↑</h3><h3 id="已完成：9本"><a href="#已完成：9本" class="headerlink" title="已完成：9本"></a>已完成：9本</h3><h4 id="更新时间：2021-08-03"><a href="#更新时间：2021-08-03" class="headerlink" title="更新时间：2021-08-03"></a>更新时间：2021-08-03</h4><table>
 <thead>
 <tr>
 <th align="left">序号</th>
@@ -344,7 +341,7 @@ cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{
 <tr>
 <td align="left">7</td>
 <td align="left">《ZOO》</td>
-<td align="center">44%</td>
+<td align="center">100%</td>
 <td align="center">短篇，真实反转，故事性极高</td>
 </tr>
 <tr>
@@ -356,8 +353,8 @@ cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{
 <tr>
 <td align="left">9</td>
 <td align="left">《1984》</td>
-<td align="center">1%</td>
-<td align="center"></td>
+<td align="center">100%</td>
+<td align="center">温斯顿，奥兰布，战争即和平，自由即奴役</td>
 </tr>
 <tr>
 <td align="left">10</td>
@@ -380,7 +377,13 @@ cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{
 <tr>
 <td align="left">13</td>
 <td align="left">《球形闪电》</td>
-<td align="center">0%</td>
+<td align="center">70%</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">14</td>
+<td align="left">《野草》</td>
+<td align="center">20%</td>
 <td align="center"></td>
 </tr>
 </tbody></table>
@@ -513,7 +516,7 @@ export default &#123;
       </categories>
   </entry>
   <entry>
-    <title>大学游戏集合</title>
+    <title>大学合集</title>
     <url>/hexo-blog/2021/06/21/game/</url>
     <content><![CDATA[<p>1.纪念碑谷</p>
 <p>2.The Room（未上锁的房间）</p>
@@ -531,10 +534,8 @@ export default &#123;
 <p>11.爷爷的城市</p>
 <p>12.想象的翅膀 Maginary</p>
 <p>13.黑暗沼泽庄园</p>
+<p>待回忆……</p>
 ]]></content>
-      <categories>
-        <category>game</category>
-      </categories>
   </entry>
   <entry>
     <title>2021搬家日志</title>
@@ -565,6 +566,13 @@ export default &#123;
 <h4 id="12-SVG-文字-hover-线条动画"><a href="#12-SVG-文字-hover-线条动画" class="headerlink" title="12.SVG 文字 hover 线条动画"></a>12.SVG 文字 hover 线条动画</h4><p><a href="https://chokcoco.github.io/CSS-Inspiration/#/./svg/svg-line-text">https://chokcoco.github.io/CSS-Inspiration/#/./svg/svg-line-text</a></p>
 <h4 id="13-Web贪吃蛇小游戏"><a href="#13-Web贪吃蛇小游戏" class="headerlink" title="13.Web贪吃蛇小游戏"></a>13.Web贪吃蛇小游戏</h4><p><a href="https://juejin.cn/post/6975125802526441502">https://juejin.cn/post/6975125802526441502</a></p>
 <h4 id="14-5分钟带你学会小摩尔眼睛跟随鼠标移动效果"><a href="#14-5分钟带你学会小摩尔眼睛跟随鼠标移动效果" class="headerlink" title="14.5分钟带你学会小摩尔眼睛跟随鼠标移动效果"></a>14.5分钟带你学会小摩尔眼睛跟随鼠标移动效果</h4><p><a href="https://juejin.cn/post/6977281427935068197">https://juejin.cn/post/6977281427935068197</a></p>
+<h4 id="15-CSS-奇思妙想-全兼容的毛玻璃效果"><a href="#15-CSS-奇思妙想-全兼容的毛玻璃效果" class="headerlink" title="15.CSS 奇思妙想 | 全兼容的毛玻璃效果"></a>15.CSS 奇思妙想 | 全兼容的毛玻璃效果</h4><p><a href="https://juejin.cn/post/6979391400844460068">https://juejin.cn/post/6979391400844460068</a></p>
+<h4 id="用纯CSS-高中知识-大学知识，精准画一面国旗！！"><a href="#用纯CSS-高中知识-大学知识，精准画一面国旗！！" class="headerlink" title="用纯CSS+高中知识+大学知识，精准画一面国旗！！"></a>用纯CSS+高中知识+大学知识，精准画一面国旗！！</h4><p><a href="https://juejin.cn/post/6979775804758556686">https://juejin.cn/post/6979775804758556686</a></p>
+<h4 id="3-分钟开发的，冰冰版！"><a href="#3-分钟开发的，冰冰版！" class="headerlink" title="3 分钟开发的，冰冰版！"></a>3 分钟开发的，冰冰版！</h4><p><a href="https://mp.weixin.qq.com/s/xohn6cdJ7n2yT3OEvE6dRQ">https://mp.weixin.qq.com/s/xohn6cdJ7n2yT3OEvE6dRQ</a></p>
+<h4 id="还在用canvas画格子吗？文字烟花效果更不错噢"><a href="#还在用canvas画格子吗？文字烟花效果更不错噢" class="headerlink" title="还在用canvas画格子吗？文字烟花效果更不错噢"></a>还在用canvas画格子吗？文字烟花效果更不错噢</h4><p><a href="https://juejin.cn/post/6984814932613152798">https://juejin.cn/post/6984814932613152798</a></p>
+<h4 id="canvas动画–一只在蓝天白云下奔跑在草丛中的🐶"><a href="#canvas动画–一只在蓝天白云下奔跑在草丛中的🐶" class="headerlink" title="canvas动画–一只在蓝天白云下奔跑在草丛中的🐶"></a>canvas动画–一只在蓝天白云下奔跑在草丛中的🐶</h4><p><a href="https://juejin.cn/post/6984586772680278023">https://juejin.cn/post/6984586772680278023</a></p>
+<h4 id="【Html5】获取G-Sensor简单计步器"><a href="#【Html5】获取G-Sensor简单计步器" class="headerlink" title="【Html5】获取G-Sensor简单计步器"></a>【Html5】获取G-Sensor简单计步器</h4><p><a href="https://blog.csdn.net/qq_32688731/article/details/82461078">https://blog.csdn.net/qq_32688731/article/details/82461078</a></p>
+<h4 id="❤520情人节陪她一起看流星雨-html-css-javascript制作流星雨3D相册-含音乐"><a href="#❤520情人节陪她一起看流星雨-html-css-javascript制作流星雨3D相册-含音乐" class="headerlink" title="❤520情人节陪她一起看流星雨~html+css+javascript制作流星雨3D相册(含音乐)"></a>❤520情人节陪她一起看流星雨~html+css+javascript制作流星雨3D相册(含音乐)</h4><p><a href="https://blog.csdn.net/ruan365392777/article/details/117927145?utm_medium=distribute.pc_category.none-task-blog-hot-20.nonecase&amp;depth_1-utm_source=distribute.pc_category.none-task-blog-hot-20.nonecase">https://blog.csdn.net/ruan365392777/article/details/117927145?utm_medium=distribute.pc_category.none-task-blog-hot-20.nonecase&amp;depth_1-utm_source=distribute.pc_category.none-task-blog-hot-20.nonecase</a></p>
 ]]></content>
       <categories>
         <category>练习</category>
@@ -573,10 +581,128 @@ export default &#123;
   <entry>
     <title>threeJs</title>
     <url>/hexo-blog/2021/06/21/three/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h3 id="中文文档"><a href="#中文文档" class="headerlink" title="中文文档"></a>中文文档</h3><p><a href="http://www.webgl3d.cn/threejs/docs/#manual/zh/introduction/Creating-a-scene">http://www.webgl3d.cn/threejs/docs/#manual/zh/introduction/Creating-a-scene</a></p>
+<h3 id="在vue中使用"><a href="#在vue中使用" class="headerlink" title="在vue中使用"></a>在vue中使用</h3><h5 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h5><pre><code>npm install --save three
+</code></pre>
+<h4 id="引入"><a href="#引入" class="headerlink" title="引入"></a>引入</h4><pre><code>import * as THREE from &#39;three&#39;
+import &#123; GLTFLoader &#125; from &#39;three/examples/jsm/loaders/GLTFLoader.js&#39;
+// 轨道控制器
+import &#123; OrbitControls &#125; from &#39;three/examples/jsm/controls/OrbitControls&#39;
+</code></pre>
+<h4 id="创建与加载模型"><a href="#创建与加载模型" class="headerlink" title="创建与加载模型"></a>创建与加载模型</h4><pre><code>// 创建场景
+  const scene = new THREE.Scene()
+  // 灰shai背景
+  scene.background = new THREE.Color(&quot;#eee&quot;)
+  // 雾
+  scene.fog = new THREE.Fog(&#39;#eee&#39;, 20, 100)
+
+  // 设置纹理，贴图
+  const canvas = document.querySelector(&#39;#three&#39;)
+  const renderer = new THREE.WebGLRenderer(&#123; canvas, antialias: true &#125;)
+  // 影子
+  renderer.shadowMap.enabled = true
+
+  // PerspectiveCamera（透视摄像机）以及OrthographicCamera （正交投影摄像机）
+  // 创建摄像机
+  // PerspectiveCamera( fov : Number, aspect : Number, near : Number, far : Number )具有四个参数:
+  const camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000)
+  camera.position.z = 10
+
+  // 创建地板
+  let floorGeometry = new THREE.PlaneGeometry(3000, 3000)
+  let floorMaterial = new THREE.MeshPhongMaterial(&#123; color: 0x000000 &#125;)
+  let floor = new THREE.Mesh(floorGeometry, floorMaterial)
+  floor.rotation.x = -0.5 * Math.PI
+  floor.receiveShadow = true
+  floor.position.y = -0.001
+  scene.add(floor)
+
+  // 添加个平行光
+  const dirLight = new THREE.DirectionalLight(0xffffff, 0.6)
+  // 光源位置
+  dirLight.position.set(-10, 8, -5)
+  // 产生阴影
+  dirLight.castShadow = true
+  dirLight.shadow.mapSize = new THREE.Vector2(1024, 1024)
+  scene.add(dirLight)
+
+  // 添加多个光源
+  const hemLight = new THREE.HemisphereLight(0xffffff, 0xffffff, 0.6)
+  hemLight.position.set(0, 48, 0)
+  scene.add(hemLight)
+
+  const controls = new OrbitControls(camera, renderer.domElement)
+  // 加点阻尼感
+  controls.enableDamping = true
+
+  function animate () &#123;
+    controls.update()
+
+    renderer.render(scene, camera)
+    requestAnimationFrame(animate)
+
+    // 分辨率问题
+    if (resizeRendererToDisplaySize(renderer)) &#123;
+      const canvas = renderer.domElement
+      camera.aspect = canvas.clientWidth / canvas.clientHeight
+      camera.updateProjectionMatrix()
+    &#125;
+  &#125;
+
+  const gltfLoader = new GLTFLoader()
+  gltfLoader.load(&#39;/tyrannosaurus_rex_skeleton/scene.gltf&#39;, (gltf) =&gt; &#123;
+    var model = gltf.scene
+    // 添加这段代码
+    // 遍历模型每部分
+    model.traverse((o) =&gt; &#123;
+      // 将图片作为纹理加载
+      let explosionText = new THREE.TextureLoader().load(&#39;/tyrannosaurus_rex_skeleton/textures/museumhallRDbone_baseColor.jpeg&#39;)
+      explosionText.flipY = false
+      // 将纹理图生成基础网络材质（MeshBasicMaterial）
+      const material = new THREE.MeshBasicMaterial(&#123;
+        map: explosionText
+      &#125;)
+      // 给模型每个部分材质
+      o.material = material
+
+      // 模型每个部分都能产生阴影
+      if (o.isMesh) &#123;
+        o.castShadow = true
+        o.receiveShadow = true
+      &#125;
+    &#125;)
+    scene.add(model)
+  &#125;)
+
+  // devicePixelRatio此属性返回当前显示的设备的物理像素分辨率与CSS像素分辨率的比值。
+  // 该值也可以被解释为像素大小的比例，即一个CSS像素的大小相对于一个物理像素的大小的比值
+  function resizeRendererToDisplaySize (renderer) &#123;
+    const canvas = renderer.domElement
+    var width = window.innerWidth
+    var height = window.innerHeight
+    var canvasPixelWidth = canvas.width / window.devicePixelRatio
+    var canvasPixelHeight = canvas.height / window.devicePixelRatio
+
+    const needResize = canvasPixelWidth !== width || canvasPixelHeight !== height
+    if (needResize) &#123;
+      renderer.setSize(width, height, false)
+      return needResize
+    &#125;
+
+  &#125;
+
+  animate()
+</code></pre>
+<h4 id="模型下载"><a href="#模型下载" class="headerlink" title="模型下载"></a>模型下载</h4><pre><code>下载模型，解压放到public文件下
+</code></pre>
+<p><a href="https://sketchfab.com/3d-models/electrostatic-drum-machine-b68348ebf69d4435bcc0d2baf05ff0fc">https://sketchfab.com/3d-models/electrostatic-drum-machine-b68348ebf69d4435bcc0d2baf05ff0fc</a></p>
+]]></content>
+      <categories>
+        <category>three</category>
+      </categories>
   </entry>
   <entry>
-    <title>article</title>
+    <title>文章</title>
     <url>/hexo-blog/2021/06/21/article/</url>
     <content><![CDATA[<h3 id="进一寸有一寸的欢喜"><a href="#进一寸有一寸的欢喜" class="headerlink" title="进一寸有一寸的欢喜"></a>进一寸有一寸的欢喜</h3><h4 id="前端进阶不可错过的-10-个-Github-仓库"><a href="#前端进阶不可错过的-10-个-Github-仓库" class="headerlink" title="前端进阶不可错过的 10 个 Github 仓库"></a>前端进阶不可错过的 10 个 Github 仓库</h4><p><a href="https://mp.weixin.qq.com/s/i9nIphjl--36yJQfsMfNpQ">https://mp.weixin.qq.com/s/i9nIphjl--36yJQfsMfNpQ</a></p>
 <h4 id="六个理念帮你写出好代码"><a href="#六个理念帮你写出好代码" class="headerlink" title="六个理念帮你写出好代码"></a>六个理念帮你写出好代码</h4><p><a href="https://juejin.cn/post/6970961751214915591">https://juejin.cn/post/6970961751214915591</a></p>
@@ -596,5 +722,11 @@ export default &#123;
       <categories>
         <category>文章</category>
       </categories>
+  </entry>
+  <entry>
+    <title>electron</title>
+    <url>/hexo-blog/2021/07/04/electron/</url>
+    <content><![CDATA[<h3 id="VSCode"><a href="#VSCode" class="headerlink" title="VSCode"></a>VSCode</h3><h3 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a>Atom</h3><h3 id="slack"><a href="#slack" class="headerlink" title="slack"></a>slack</h3><h3 id="wordpress"><a href="#wordpress" class="headerlink" title="wordpress"></a>wordpress</h3><p>技术胖：jspang.com</p>
+]]></content>
   </entry>
 </search>
