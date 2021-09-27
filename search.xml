@@ -31,7 +31,7 @@
   <entry>
     <title>2021影视漫综---记录</title>
     <url>/hexo-blog/2021/05/23/entertainment/</url>
-    <content><![CDATA[<h3 id="影视漫综"><a href="#影视漫综" class="headerlink" title="影视漫综"></a>影视漫综</h3><h2 id="影"><a href="#影" class="headerlink" title="影"></a>影</h2><p>1.《妖猫记》<br>2.《1921》<br>3.《十二怒汉》<br>4.《未来的未来》</p>
+    <content><![CDATA[<h3 id="影视漫综"><a href="#影视漫综" class="headerlink" title="影视漫综"></a>影视漫综</h3><h2 id="影"><a href="#影" class="headerlink" title="影"></a>影</h2><p>1.《妖猫记》<br>2.《1921》<br>3.《十二怒汉》<br>4.《未来的未来》<br>5.《BEYOND日记之莫欺少年穷》<br>6.《吉星拱照》<br>7.《春娇与志明》</p>
 <hr>
 <h2 id="视"><a href="#视" class="headerlink" title="视"></a>视</h2><p>1.《觉醒年代》</p>
 <pre><code>中国近代史时间轴：
@@ -107,7 +107,7 @@
 </details>
 
 <p>2.《窥探》<br>变态基因</p>
-<p>3.《我是遗物整理师》待看</p>
+<p>3.我在他乡挺好的</p>
 <hr>
 <h2 id="漫"><a href="#漫" class="headerlink" title="漫"></a>漫</h2><p>1.《灵笼》</p>
 <pre><code>  3D，末世废土风
@@ -135,6 +135,8 @@
 <pre><code>    自驾游=&gt;练车
 </code></pre>
 <p>3.向往的生活4</p>
+<p>4.你好生活3</p>
+<p>5.披荆斩棘的哥哥</p>
 ]]></content>
       <categories>
         <category>娱乐</category>
@@ -293,7 +295,7 @@ cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{
   <entry>
     <title>2021阅读计划</title>
     <url>/hexo-blog/2021/05/23/read/</url>
-    <content><![CDATA[<h3 id="目标：12本-↑"><a href="#目标：12本-↑" class="headerlink" title="目标：12本 ↑"></a>目标：12本 ↑</h3><h3 id="已完成：9本"><a href="#已完成：9本" class="headerlink" title="已完成：9本"></a>已完成：9本</h3><h4 id="更新时间：2021-08-03"><a href="#更新时间：2021-08-03" class="headerlink" title="更新时间：2021-08-03"></a>更新时间：2021-08-03</h4><table>
+    <content><![CDATA[<h3 id="目标：12本-↑"><a href="#目标：12本-↑" class="headerlink" title="目标：12本 ↑"></a>目标：12本 ↑</h3><h3 id="已完成：14本"><a href="#已完成：14本" class="headerlink" title="已完成：14本"></a>已完成：14本</h3><h4 id="更新时间：2021-09-20"><a href="#更新时间：2021-09-20" class="headerlink" title="更新时间：2021-09-20"></a>更新时间：2021-09-20</h4><table>
 <thead>
 <tr>
 <th align="left">序号</th>
@@ -365,8 +367,8 @@ cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{
 <tr>
 <td align="left">11</td>
 <td align="left">《猫城记》</td>
-<td align="center">0%</td>
-<td align="center"></td>
+<td align="center">100%</td>
+<td align="center">良心是大于生命的</td>
 </tr>
 <tr>
 <td align="left">12</td>
@@ -377,14 +379,38 @@ cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{
 <tr>
 <td align="left">13</td>
 <td align="left">《球形闪电》</td>
-<td align="center">70%</td>
+<td align="center">100%</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="left">14</td>
 <td align="left">《野草》</td>
-<td align="center">20%</td>
+<td align="center">42%</td>
 <td align="center"></td>
+</tr>
+<tr>
+<td align="left">15</td>
+<td align="left">《金阁寺》</td>
+<td align="center">100%</td>
+<td align="center">本年度最难读</td>
+</tr>
+<tr>
+<td align="left">16</td>
+<td align="left">《向日葵不开的夏天》</td>
+<td align="center">100%</td>
+<td align="center">偏诡计推理，设定新奇</td>
+</tr>
+<tr>
+<td align="left">17</td>
+<td align="left">《第七重解答》</td>
+<td align="center">100%</td>
+<td align="center">古典推理，超赞</td>
+</tr>
+<tr>
+<td align="left">18</td>
+<td align="left">《西西弗神话》</td>
+<td align="center">16%</td>
+<td align="center">加缪</td>
 </tr>
 </tbody></table>
 ]]></content>
@@ -727,6 +753,16 @@ import &#123; OrbitControls &#125; from &#39;three/examples/jsm/controls/OrbitCo
     <title>electron</title>
     <url>/hexo-blog/2021/07/04/electron/</url>
     <content><![CDATA[<h3 id="VSCode"><a href="#VSCode" class="headerlink" title="VSCode"></a>VSCode</h3><h3 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a>Atom</h3><h3 id="slack"><a href="#slack" class="headerlink" title="slack"></a>slack</h3><h3 id="wordpress"><a href="#wordpress" class="headerlink" title="wordpress"></a>wordpress</h3><p>技术胖：jspang.com</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>计划</title>
+    <url>/hexo-blog/2021/08/03/plan/</url>
+    <content><![CDATA[<p>  动态流程图</p>
+<p>  threejs demo</p>
+<p>  动态数据显示图</p>
+<p>  3d老屋搭建</p>
+<p>  阅读</p>
 ]]></content>
   </entry>
 </search>
